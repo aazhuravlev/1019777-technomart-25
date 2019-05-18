@@ -57,21 +57,61 @@
       </ul>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!--Здесь будет фильтр по цене-->
-        <h3>Производители:</h3>
-        <ul class="brands">
-          <li>BOSCH</li>
-          <li>ИНТЕРСКОЛ</li>
-          <li>MAKITA</li>
-          <li>DEWALT</li>
-          <li>HITACHI</li>
-        </ul>
-        <h3>Питание:</h3>
-        <ul class="acc-type">
-          <li>Аккумуляторные</li>
-          <li>Сетевые</li>
-        </ul>
-        <a href="#">Показать</a>
+        <form action="https://echo.htmlacademy.ru" method="get" class="filter">
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-checkbox" type="checkbox" name="BOSCH" checked>
+                  BOSCH
+                </label>
+              </li>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-checkbox" type="checkbox" name="ИНТЕРСКОЛ">
+                  ИНТЕРСКОЛ
+                </label>
+              </li>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-checkbox" type="checkbox" name="MAKITA" checked>
+                  MAKITA
+                </label>
+              </li>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-checkbox" type="checkbox" name="DEWALT">
+                  DEWALT
+                </label>
+              </li>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-checkbox" type="checkbox" name="HITACHI">
+                  HITACHI
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-radio" type="radio" name="product-group" value="rechargeable" checked>
+                  Аккумуляторные
+                </label>
+              </li>
+              <li class="filter-option">
+                <label>
+                  <input class="filter-radio" type="radio" name="product-group" value="not-rechargeable">
+                  Сетевые
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit" class="filter-button button">Показать</button>
+        </form>
       </section>
       <section class="sorting">
         <h2 class="visually-hidden">Сортировка товаров</h2>
