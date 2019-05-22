@@ -11,7 +11,7 @@ body {
 }
 
 .top-header,
-.site-navigation {
+.bottom-footer {
   background-color: #293449;
 }
 
@@ -22,6 +22,10 @@ body {
 .main-header a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.site-navigation {
+  background-color: #32425c;
 }
 
 .main-header ul,
