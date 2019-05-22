@@ -5,3 +5,26 @@ body {
   font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
 }
+
+.main-header {
+  background-color: #f4f7f9;
+}
+
+.top-header,
+.site-navigation {
+  background-color: #293449;
+}
+
+.main-logo {
+  background-color: #ee3643;
+}
+
+.main-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-header ul,
+.site-navigation ul {
+  list-style: none;
+}
