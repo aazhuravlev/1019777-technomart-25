@@ -186,6 +186,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  border: none;
 }
 
 .link-button:hover,
@@ -280,4 +281,9 @@ body {
 .development a:active {
   color: #ee3643;
   text-decoration: none;
+}
+
+.modal-map,
+.recall-form {
+  display: none;
 }
