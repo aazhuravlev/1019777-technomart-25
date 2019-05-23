@@ -131,7 +131,8 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.site-navigation {
+.site-navigation,
+.top-footer {
   background-color: #32425c;
 }
 
@@ -194,4 +195,47 @@ body {
 
 .link-button:active {
   background-color: #ba2732;
+}
+
+.footer-contacts {
+  color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.top-navigation,
+.bottom-navigation {
+  list-style: none;
+}
+
+.top-navigation a,
+.bottom-navigation a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.top-navigation a {
+  color: #f1f5f7;
+}
+
+.bottom-navigation a {
+  color: #ffd180;
+}
+
+.top-navigation a:hover,
+.top-navigation a:focus,
+.bottom-navigation a:hover,
+.bottom-navigation a:focus {
+  text-decoration: underline;
+}
+
+.top-navigation a:active {
+  color: rgba(241, 245, 247, 0.5);
+}
+
+.bottom-navigation a:active {
+  color: rgba(255, 209, 128, 0.5);
 }
