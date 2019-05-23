@@ -141,6 +141,16 @@ body {
   text-align: left;
 }
 
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #293449;
+}
+
+.site-navigation a:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .about h2,
 .contacts h2 {
   text-transform: uppercase;
