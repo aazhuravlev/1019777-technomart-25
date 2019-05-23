@@ -15,8 +15,22 @@ body {
   background-color: #293449;
 }
 
+.main-header ul,
+.site-navigation ul {
+  list-style: none;
+}
+
 .main-logo {
   background-color: #ee3643;
+}
+
+.main-logo:hover,
+.main-logo:focus {
+  background-color: #ca2c37;
+}
+
+.main-logo:active {
+  background-color: #ba2732;
 }
 
 .main-header a {
@@ -24,11 +38,59 @@ body {
   text-decoration: none;
 }
 
-.site-navigation {
-  background-color: #32425c;
+.top-header a {
+  font-size: 17px;
+  line-height: 18px;
 }
 
-.main-header ul,
-.site-navigation ul {
-  list-style: none;
+.order a {
+  background-color: #63a63e;
+}
+
+.main-header input {
+  color: #ffffff;
+  background-color: #293449;
+  border: none;
+}
+
+.main-header input:hover {
+  background-color: #212a3a;
+}
+
+.header-basket input::placeholder {
+  color: #ffffff;
+}
+
+.main-header input:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-basket input:focus::placeholder {
+  color: #000000;
+}
+
+.header-basket a:hover,
+.header-basket a:focus {
+  background-color: #212a3a;
+}
+
+.order a:hover,
+.order a:focus {
+  background-color: #5fbb2d;
+}
+
+.header-basket a:active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #161d29;
+}
+
+.order a:active {
+  background-color: #5fbb2d;
+}
+
+
+
+.site-navigation {
+  background-color: #32425c;
 }
