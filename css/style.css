@@ -3,7 +3,7 @@ body {
   padding: 0;
 
   font-family: "Cuprum", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .main-header {
@@ -17,6 +17,8 @@ body {
 
 .main-header ul,
 .site-navigation ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -41,6 +43,7 @@ body {
 .top-header a {
   font-size: 17px;
   line-height: 18px;
+  text-align: left;
 }
 
 .order a {
@@ -89,6 +92,46 @@ body {
   background-color: #5fbb2d;
 }
 
+.main-header h1 {
+  color: #ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+.header-contacts .phone {
+  color: #ee3643;
+  font-size: 21px;
+  line-height: 21px;
+  border: 3px solid #ffffff;
+  text-align: center;
+}
+
+.header-contacts .adress {
+  color: #32425c;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.login a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.login a:hover,
+.login a:focus {
+  color: #ee3643;
+}
+
+.login a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
 
 
 .site-navigation {
