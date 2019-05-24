@@ -307,6 +307,18 @@ body {
   border: solid 2px #dee3e4;
 }
 
+.recall-form input:hover[type="text"],
+.recall-form input:hover[type="email"],
+.recall-form textarea:hover {
+  border: solid 2px #b5b5b5;
+}
+
+.recall-form input:focus[type="text"],
+.recall-form input:focus[type="email"],
+.recall-form textarea:focus {
+  border: solid 2px #ee3643;
+}
+
 .recall-form input::placeholder,
 .recall-form textarea::placeholder {
   font-family: "PT sans", Arial, sans-serif;
