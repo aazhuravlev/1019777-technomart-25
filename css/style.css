@@ -65,6 +65,7 @@ body {
 .main-header input:focus {
   color: #000000;
   background-color: #ffffff;
+  outline: none;
 }
 
 .header-basket input:focus::placeholder {
@@ -317,6 +318,7 @@ body {
 .recall-form input:focus[type="email"],
 .recall-form textarea:focus {
   border: solid 2px #ee3643;
+  outline: none;
 }
 
 .recall-form input::placeholder,
