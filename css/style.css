@@ -283,7 +283,39 @@ body {
   text-decoration: none;
 }
 
-.modal-map,
+.modal-map img {
+  box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
+}
+
 .recall-form {
-  display: none;
+  width: 620px;
+  height: 430px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
+  border-top: 7px solid #ff5257;
+}
+
+.recall-form label {
+  color: #000000;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.recall-form input[type="text"],
+.recall-form input[type="email"],
+.recall-form textarea {
+  border: solid 2px #dee3e4;
+}
+
+.recall-form input::placeholder,
+.recall-form textarea::placeholder {
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-align: left;
+}
+
+.modal-submit {
+  background-color: #f4f4f4;
 }
