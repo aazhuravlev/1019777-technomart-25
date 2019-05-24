@@ -138,6 +138,10 @@ body {
   background-color: #32425c;
 }
 
+.site-navigation {
+  box-shadow: inset 0px -5px 0 0 #293449;
+}
+
 .site-navigation a {
   font-size: 17px;
   line-height: 17px;
