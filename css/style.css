@@ -204,6 +204,40 @@ body {
   background-color: #ba2732;
 }
 
+.account a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.account a:hover,
+.account a:focus {
+
+}
+
+.account a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.login a {
+  color: #32425c;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.login a:hover,
+.login a:focus {
+  color: #ee3643;
+}
+
+.login a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
 .footer-contacts {
   color: #f3f7f9;
   font-size: 18px;
