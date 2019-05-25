@@ -121,7 +121,6 @@ body {
   font-size: 21px;
   line-height: 21px;
   text-align: left;
-  background-color: #ffffff;
 }
 
 .login a:hover,
@@ -132,6 +131,31 @@ body {
 .login a:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+.container h1 {
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+  font-weight: normal;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs-link {
+  font-family: "PT sans", Arial, sans-serif;
+  color: #000000;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 .site-navigation,
 .top-footer {
