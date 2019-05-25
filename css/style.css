@@ -188,6 +188,89 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.catalog ul {
+  list-style: none;
+}
+
+.catalog-item {
+  border: 1px solid  #e5e5e5;
+  text-align: center;
+}
+
+.catalog-item:hover,
+.catalog-item:focus {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.catalog-item a {
+  font-family: "PT sans", Arial, sans-serif;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.catalog-item span {
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.price del {
+  color: #999999;
+}
+
+.buying a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buying .buy {
+  color: #ffffff;
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
+}
+
+.buying .buy:hover,
+.buying .buy:focus {
+  background-color: #5fbb2d;
+  box-shadow: inset 0px -3px 0 0 #367315;
+}
+
+.buying .buy:active {
+  background-color: #518534;
+}
+
+.buying .to-bookmark {
+  color: #32425c;
+  border: solid 3px #63a63e;
+}
+
+.catalog-item .buying {
+  display: none;
+}
+
+.catalog-item:hover img,
+.catalog-item:focus img {
+  display: none;
+}
+
+.catalog-item:hover .buying,
+.catalog-item:focus .buying {
+  display: block;
+  width: 218px;
+  height: 170px;
+}
+
 .site-navigation,
 .top-footer {
   background-color: #32425c;
