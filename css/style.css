@@ -92,7 +92,7 @@ body {
   background-color: #5fbb2d;
 }
 
-.main-header h1 {
+.main-header .store-description {
   color: #ee3643;
   font-size: 16px;
   line-height: 23px;
