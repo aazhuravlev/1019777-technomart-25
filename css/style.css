@@ -156,16 +156,21 @@ body {
   text-decoration: none;
 }
 
-.filters fieldset {
+.filters {
   font-family: "PT sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.filters fieldset {
   border: none;
 }
 
 .filters legend {
   font-size: 17px;
   line-height: 30px;
-  text-align: left;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -173,11 +178,12 @@ body {
   list-style: none;
 }
 
-.filter-option label {
-  font-size: 15px;
-  line-height: 20px;
-  text-align: left;
-  text-transform: uppercase;
+.filter button {
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
 }
 
 .filter-option input:disabled + label {
@@ -507,6 +513,47 @@ body {
   text-align: left;
 }
 
-.modal-submit {
+.modal-buttons {
   background-color: #f4f4f4;
+}
+
+.modal-add-item {
+  border-top: 7px solid #ff5257;
+  box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
+}
+
+.modal-add-item p {
+  font-size: 30px;
+  line-height: 30px;;
+  text-align: center;
+}
+
+.modal-buttons a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ee3643;
+}
+
+.modal-buttons a:hover,
+.modal-buttons a:focus {
+  background-color: #ca2c37;
+}
+
+.modal-buttons a:active {
+  background-color: #ba2732;
+}
+
+.modal-buttons button {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: none;
 }
