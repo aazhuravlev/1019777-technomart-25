@@ -156,6 +156,37 @@ body {
   text-decoration: none;
 }
 
+.filters fieldset {
+  font-family: "PT sans", Arial, sans-serif;
+  border: none;
+}
+
+.filters legend {
+  font-size: 17px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.filters ul {
+  list-style: none;
+}
+
+.filter-option label {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.filter-option input:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.border-filter {
+  border-top: 1px solid #e5e5e5;
+}
 
 .site-navigation,
 .top-footer {
