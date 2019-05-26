@@ -12,8 +12,7 @@ body {
   background-color: #f4f7f9;
 }
 
-.top-header,
-.bottom-footer {
+.top-header {
   background-color: #293449;
 }
 
@@ -120,6 +119,7 @@ body {
   line-height: 21px;
   text-align: center;
   text-decoration: none;
+  background-color: #ffffff;
 }
 
 .login a:hover,
@@ -278,6 +278,10 @@ body {
   background-color: #32425c;
 }
 
+.bottom-footer {
+  background-color: #293449;
+}
+
 .site-navigation {
   box-shadow: inset 0px -5px 0 0 #293449;
 }
@@ -296,20 +300,17 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.about h2,
-.contacts h2 {
+.about-company {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
 }
 
-.about p,
-.contacts p {
+.describtion {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  font-weight: normal;
 }
 
 .delivery {
