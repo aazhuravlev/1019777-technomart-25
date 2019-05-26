@@ -98,7 +98,6 @@ body {
   line-height: 23px;
   font-style: italic;
   font-weight: normal;
-  text-align: left;
 }
 
 .header-contacts .phone {
@@ -137,7 +136,6 @@ body {
   color: #32425c;
   font-size: 30px;
   line-height: 30px;
-  text-align: left;
   text-transform: uppercase;
   background-color: #f2f6f8;
   font-weight: normal;
@@ -151,7 +149,6 @@ body {
   font-family: "PT sans", Arial, sans-serif;
   color: #000000;
   font-size: 13px;
-  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -160,7 +157,6 @@ body {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
-  text-align: left;
   text-transform: uppercase;
 }
 
@@ -284,7 +280,6 @@ body {
 
 .site-navigation a {
   line-height: 17px;
-  text-align: left;
 }
 
 .site-navigation a:hover,
@@ -302,7 +297,6 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
-  text-align: left;
   font-weight: normal;
 }
 
@@ -311,7 +305,6 @@ body {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  text-align: left;
   font-weight: normal;
 }
 
@@ -319,7 +312,6 @@ body {
   list-style: none;
   font-size: 18px;
   line-height: 20px;
-  text-align: left;
   font-weight: normal;
 }
 
@@ -346,7 +338,6 @@ body {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
-  text-align: left;
   background-color: #ffffff;
 }
 
@@ -362,7 +353,6 @@ body {
 .account-orders a {
   color: #32425c;
   font-size: 16px;
-  text-align: left;
   text-decoration: underline;
 }
 
@@ -379,7 +369,6 @@ body {
   color: #f3f7f9;
   font-size: 18px;
   line-height: 24px;
-  text-align: left;
 }
 
 .top-navigation,
@@ -392,7 +381,6 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
-  text-align: left;
 }
 
 .top-navigation a {
@@ -421,7 +409,6 @@ body {
 .bottom-footer {
   color: #ffffff;
   font-size: 16px;
-  text-align: left;
 }
 
 .footer-social {
@@ -473,7 +460,6 @@ body {
 .recall-form label {
   color: #000000;
   font-size: 18px;
-  text-align: left;
 }
 
 .recall-form input[type="text"],
@@ -500,7 +486,6 @@ body {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   color: #a9a9a9;
-  text-align: left;
 }
 
 .modal-buttons {
