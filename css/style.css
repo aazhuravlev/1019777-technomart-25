@@ -42,7 +42,7 @@ body {
 }
 
 .top-header a {
-  text-align: left;
+  text-align: center;
 }
 
 .order a {
@@ -120,7 +120,8 @@ body {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
-  text-align: left;
+  text-align: center;
+  text-decoration: none;
 }
 
 .login a:hover,
@@ -358,19 +359,19 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.login a {
+.account-orders a {
   color: #32425c;
   font-size: 16px;
   text-align: left;
   text-decoration: underline;
 }
 
-.login a:hover,
-.login a:focus {
+.account-orders a:hover,
+.account-orders a:focus {
   color: #ee3643;
 }
 
-.login a:active {
+.account-orders a:active {
   color: rgba(50, 66, 92, 0.3);
 }
 
