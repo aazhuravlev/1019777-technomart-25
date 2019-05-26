@@ -467,27 +467,20 @@ body {
   font-size: 18px;
 }
 
-.recall-form input[type="text"],
-.recall-form input[type="email"],
-.recall-form textarea {
+.recall-form-area {
   border: solid 2px #dee3e4;
 }
 
-.recall-form input:hover[type="text"],
-.recall-form input:hover[type="email"],
-.recall-form textarea:hover {
+.recall-form-area:hover {
   border: solid 2px #b5b5b5;
 }
 
-.recall-form input:focus[type="text"],
-.recall-form input:focus[type="email"],
-.recall-form textarea:focus {
+.recall-form-area:focus {
   border: solid 2px #ee3643;
   outline: none;
 }
 
-.recall-form input::placeholder,
-.recall-form textarea::placeholder {
+.recall-form-area::placeholder {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   color: #a9a9a9;
