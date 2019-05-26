@@ -49,27 +49,27 @@ body {
   background-color: #63a63e;
 }
 
-.main-header input {
+.search {
   color: #ffffff;
   background-color: #293449;
   border: none;
 }
 
-.main-header input:hover {
+.search:hover {
   background-color: #212a3a;
 }
 
-.header-basket input::placeholder {
+.search::placeholder {
   color: #ffffff;
 }
 
-.main-header input:focus {
+.search:focus {
   color: #000000;
   background-color: #ffffff;
   outline: none;
 }
 
-.header-basket input:focus::placeholder {
+.search:focus::placeholder {
   color: #000000;
 }
 
