@@ -274,7 +274,10 @@ body {
   height: 170px;
 }
 
-.site-navigation,
+.site-navigation {
+  background-color: #32425c;
+}
+
 .top-footer {
   background-color: #32425c;
 }
