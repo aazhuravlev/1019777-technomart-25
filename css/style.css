@@ -4,8 +4,8 @@ body {
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
-  line-height: 18px;
   font-weight: normal;
+  line-height: 18px;
 }
 
 .main-header {
@@ -36,8 +36,9 @@ body {
 }
 
 .main-header a {
-  color: #ffffff;
   text-decoration: none;
+
+  color: #ffffff;
 }
 
 .top-header a {
@@ -50,8 +51,8 @@ body {
 
 .search {
   color: #ffffff;
-  background-color: #293449;
   border: none;
+  background-color: #293449;
 }
 
 .search:hover {
@@ -64,8 +65,8 @@ body {
 
 .search:focus {
   color: #000000;
-  background-color: #ffffff;
   outline: none;
+  background-color: #ffffff;
 }
 
 .search:focus::placeholder {
@@ -93,34 +94,41 @@ body {
 
 .store-description {
   color: #ee3643;
+
   font-size: 16px;
-  line-height: 23px;
-  font-style: italic;
   font-weight: normal;
+  font-style: italic;
+  line-height: 23px;
 }
 
 .header-contacts .phone {
+  text-align: center;
+
   color: #ee3643;
+  border: 3px solid #ffffff;
+
   font-size: 21px;
   line-height: 21px;
-  border: 3px solid #ffffff;
-  text-align: center;
 }
 
 .header-contacts .adress {
+  text-align: center;
+
   color: #32425c;
+
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
 }
 
 .login a {
-  color: #000000;
-  font-size: 21px;
-  line-height: 21px;
   text-align: center;
   text-decoration: none;
+
+  color: #000000;
   background-color: #ffffff;
+
+  font-size: 21px;
+  line-height: 21px;
 }
 
 .login a:hover,
@@ -133,12 +141,14 @@ body {
 }
 
 .type-of-item {
-  color: #32425c;
-  font-size: 30px;
-  line-height: 30px;
   text-transform: uppercase;
+
+  color: #32425c;
   background-color: #f2f6f8;
+
+  font-size: 30px;
   font-weight: normal;
+  line-height: 30px;
 }
 
 .breadcrumbs {
@@ -146,18 +156,21 @@ body {
 }
 
 .breadcrumbs-link {
-  font-family: "PT sans", Arial, sans-serif;
-  color: #000000;
-  font-size: 13px;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 13px;
 }
 
 .filters {
+  text-transform: uppercase;
+
   font-family: "PT sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
-  text-transform: uppercase;
 }
 
 .filters fieldset {
@@ -165,8 +178,8 @@ body {
 }
 
 .filters legend {
-  line-height: 30px;
   font-weight: bold;
+  line-height: 30px;
 }
 
 .filters ul {
@@ -174,11 +187,12 @@ body {
 }
 
 .filter button {
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  border: solid 1px #e5e5e5;
-  background-color: #ffffff;
 }
 
 .filter-option input:disabled + label {
@@ -194,8 +208,9 @@ body {
 }
 
 .catalog-item {
-  border: 1px solid  #e5e5e5;
   text-align: center;
+
+  border: 1px solid  #e5e5e5;
 }
 
 .catalog-item:hover,
@@ -204,12 +219,14 @@ body {
 }
 
 .item {
-  font-family: "PT sans", Arial, sans-serif;
-  color: #000000;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: bold;
   text-decoration: none;
+
+  color: #000000;
+
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .catalog-item span {
@@ -226,21 +243,23 @@ body {
 
 .actual-price {
   text-decoration: none;
+
   color: #ffffff;
   background-color: #ee3643;
 }
 
 .buying a {
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
   text-align: center;
   text-decoration: none;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
 }
 
 .buying .buy {
   color: #ffffff;
-  box-shadow: inset 0px -3px 0 0 #367315;
   background-color: #63a63e;
+  box-shadow: inset 0px -3px 0 0 #367315;
 }
 
 .buying .buy:hover,
@@ -270,6 +289,7 @@ body {
 .catalog-item:hover .buying,
 .catalog-item:focus .buying {
   display: block;
+
   width: 218px;
   height: 170px;
 }
@@ -300,15 +320,16 @@ body {
 }
 
 .site-navigation a:active {
-  background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
 }
 
 .about-company {
   text-transform: uppercase;
+
   font-size: 30px;
-  line-height: 30px;
   font-weight: normal;
+  line-height: 30px;
 }
 
 .describtion {
@@ -319,19 +340,22 @@ body {
 
 .delivery {
   list-style: none;
+
   font-size: 18px;
-  line-height: 20px;
   font-weight: normal;
+  line-height: 20px;
 }
 
 .link-button {
-  background-color: #ee3643;
-  color: #ffffff;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
-  text-align: center;
+
+  color: #ffffff;
   border: none;
+  background-color: #ee3643;
+
+  font-size: 14px;
 }
 
 .link-button:hover,
@@ -345,9 +369,10 @@ body {
 
 .account a {
   color: #000000;
+  background-color: #ffffff;
+
   font-size: 21px;
   line-height: 21px;
-  background-color: #ffffff;
 }
 
 .account a:hover,
@@ -360,9 +385,11 @@ body {
 }
 
 .account-orders a {
-  color: #32425c;
-  font-size: 16px;
   text-decoration: underline;
+
+  color: #32425c;
+
+  font-size: 16px;
 }
 
 .account-orders a:hover,
@@ -376,6 +403,7 @@ body {
 
 .footer-contacts {
   color: #f3f7f9;
+
   font-size: 18px;
   line-height: 24px;
 }
@@ -388,6 +416,7 @@ body {
 .top-navigation a,
 .bottom-navigation a {
   text-decoration: none;
+
   font-size: 18px;
   line-height: 24px;
 }
@@ -417,12 +446,14 @@ body {
 
 .bottom-footer {
   color: #ffffff;
+
   font-size: 16px;
 }
 
 .footer-social {
-  text-align: center;
   list-style: none;
+
+  text-align: center;
 }
 
 .social-button {
@@ -438,8 +469,9 @@ body {
 
 .feedback a,
 .development a {
-  color: #ffd180;
   text-decoration: none;
+
+  color: #ffd180;
 }
 
 .feedback a:hover,
@@ -451,8 +483,9 @@ body {
 
 .feedback a:active,
 .development a:active {
-  color: #ee3643;
   text-decoration: none;
+
+  color: #ee3643;
 }
 
 .modal-map img {
@@ -462,12 +495,14 @@ body {
 .recall-form {
   width: 620px;
   height: 430px;
-  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
+
   border-top: 7px solid #ff5257;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
 .recall-form label {
   color: #000000;
+
   font-size: 18px;
 }
 
@@ -485,9 +520,10 @@ body {
 }
 
 .recall-form-area::placeholder {
+  color: #a9a9a9;
+
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
-  color: #a9a9a9;
 }
 
 .modal-buttons {
@@ -500,18 +536,21 @@ body {
 }
 
 .modal-add-item p {
+  text-align: center;
+
   font-size: 30px;
   line-height: 30px;;
-  text-align: center;
 }
 
 .modal-buttons a {
-  font-size: 14px;
-  color: #ffffff;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
+
+  color: #ffffff;
   background-color: #ee3643;
+
+  font-size: 14px;
 }
 
 .modal-buttons a:hover,
@@ -524,11 +563,13 @@ body {
 }
 
 .modal-buttons button {
-  font-size: 14px;
-  color: #000000;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
-  background-color: #ffffff;
+  text-transform: uppercase;
+
+  color: #000000;
   border: none;
+  background-color: #ffffff;
+
+  font-size: 14px;
 }
