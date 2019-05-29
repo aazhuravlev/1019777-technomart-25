@@ -9,19 +9,66 @@ body {
 }
 
 .main-header {
+  display: flex;
+  flex-direction: column;
+
   background-color: #f4f7f9;
+
+  min-height: 42px;
 }
 
 .top-header {
+  justify-content: space-between;
+
+  width: 100%;
+
   background-color: #293449;
 }
 
-.main-header ul,
-.site-navigation ul {
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-basket {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.wrapper-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .main-logo {
+  width: 220px;
+  height: 42px;
+
   background-color: #ee3643;
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
@@ -93,6 +140,10 @@ body {
 }
 
 .store-description {
+  width: 196px;
+  height: 60px;
+  margin-left: 50px;
+
   color: #ee3643;
 
   font-size: 16px;
@@ -101,7 +152,16 @@ body {
   line-height: 23px;
 }
 
+.header-contacts {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+}
+
 .header-contacts .phone {
+  width: 270px;
+  height: 45px;
+
   text-align: center;
 
   color: #ee3643;
@@ -118,6 +178,29 @@ body {
 
   font-size: 14px;
   line-height: 24px;
+}
+
+.enter {
+  display: block;
+
+  width: 121px;
+  height: 45px;
+}
+
+.registration {
+  display: block;
+
+  width: 150px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+.login {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  display: flex;
 }
 
 .login a {
@@ -295,7 +378,13 @@ body {
 }
 
 .site-navigation {
+  width: 940px;
+  min-height: 60px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+
   background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .top-footer {
@@ -304,10 +393,6 @@ body {
 
 .bottom-footer {
   background-color: #293449;
-}
-
-.site-navigation {
-  box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .site-navigation a {
