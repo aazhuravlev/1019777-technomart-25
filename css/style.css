@@ -14,13 +14,14 @@ body {
 
   background-color: #f4f7f9;
 
-  min-height: 42px;
+  min-height: 320px;
 }
 
 .top-header {
   justify-content: space-between;
 
   width: 100%;
+  min-height: 42px;
 
   background-color: #293449;
 }
@@ -32,27 +33,17 @@ body {
 
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 .header-basket {
-  margin: 0;
   padding: 0;
 
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 100%;
-}
 
-.site-navigation {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+  margin: auto;
 }
 
 .wrapper-mid {
@@ -61,8 +52,8 @@ body {
   justify-content: space-between;
 
   width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: auto;
+
 }
 
 .main-logo {
@@ -185,6 +176,7 @@ body {
 
   width: 121px;
   height: 45px;
+  margin-top: -20px;
 }
 
 .registration {
@@ -193,6 +185,8 @@ body {
   width: 150px;
   height: 45px;
   margin-left: 10px;
+  margin-top: -20px;
+
 }
 
 .login {
@@ -378,6 +372,11 @@ body {
 }
 
 .site-navigation {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 940px;
   min-height: 60px;
   margin: 0 auto;
@@ -423,7 +422,7 @@ body {
   width: 540px;
 }
 
-.contacts {
+.contacts-map {
   width: 300px;
 }
 
