@@ -19,7 +19,6 @@ body {
 
 .top-header {
   background-color: #293449;
-  margin-bottom: 46px;
 }
 
 .wrapper {
@@ -39,16 +38,6 @@ body {
   padding: 0;
 
   list-style: none;
-}
-
-.wrapper-mid {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 940px;
-  margin: auto;
-
 }
 
 .main-logo {
@@ -131,9 +120,18 @@ body {
   background-color: #5fbb2d;
 }
 
+.wrapper-mid {
+  display: flex;
+  justify-content: space-between;
+
+  width: 940px;
+  padding: 0 10px;
+}
+
 .store-description {
   width: 196px;
-  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 44px;
   margin-left: 50px;
 
   color: #ee3643;
