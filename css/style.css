@@ -105,6 +105,11 @@ body {
   color: #000000;
 }
 
+.header-basket a {
+  display: block;
+  width: 150px;
+}
+
 .header-basket a:hover,
 .header-basket a:focus {
   background-color: #212a3a;
