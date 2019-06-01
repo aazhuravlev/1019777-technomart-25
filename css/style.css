@@ -24,7 +24,6 @@ body {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
 
   width: 940px;
   padding: 0 10px;
@@ -82,27 +81,27 @@ body {
   background-color: #63a63e;
 }
 
-.search {
+.search-field {
   color: #ffffff;
   border: none;
   background-color: #293449;
 }
 
-.search:hover {
+.search-field:hover {
   background-color: #212a3a;
 }
 
-.search::placeholder {
+.search-field::placeholder {
   color: #ffffff;
 }
 
-.search:focus {
+.search-field:focus {
   color: #000000;
   outline: none;
   background-color: #ffffff;
 }
 
-.search:focus::placeholder {
+.search-field:focus::placeholder {
   color: #000000;
 }
 
