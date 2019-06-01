@@ -143,17 +143,14 @@ body {
 }
 
 .header-contacts {
+  margin-top: 46px;
   display: flex;
-  align-content: space-around;
   flex-direction: column;
 }
 
 .header-contacts .phone {
-  width: 270px;
-  height: 45px;
-
-  text-align: center;
-
+  padding: 10px 49px 8px 71px;
+  margin-bottom: 2px; /* вопрос */
   color: #ee3643;
   border: 3px solid #ffffff;
 
