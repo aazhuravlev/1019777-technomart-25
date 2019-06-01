@@ -82,6 +82,8 @@ body {
 }
 
 .search-field {
+  display: block;
+  width: 270px;
   color: #ffffff;
   border: none;
   background-color: #293449;
