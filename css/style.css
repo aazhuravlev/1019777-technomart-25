@@ -125,6 +125,7 @@ body {
   justify-content: space-between;
 
   width: 940px;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
@@ -133,6 +134,7 @@ body {
   margin-top: 50px;
   margin-bottom: 44px;
   margin-left: 50px;
+  margin-right: 71px;
 
   color: #ee3643;
 
@@ -150,7 +152,7 @@ body {
 
 .header-contacts .phone {
   padding: 10px 49px 8px 71px;
-  margin-bottom: 2px; /* вопрос */
+  margin-bottom: 2px; /* вопрос про отступ */
   color: #ee3643;
   border: 3px solid #ffffff;
 
@@ -167,35 +169,18 @@ body {
   line-height: 24px;
 }
 
-.enter {
-  display: block;
-
-  width: 121px;
-  height: 45px;
-  margin-top: -20px;
-}
-
-.registration {
-  display: block;
-
-  width: 150px;
-  height: 45px;
-  margin-top: -20px;
-  margin-left: 10px;
-
-}
-
 .login {
   display: flex;
 
   margin: 0;
+  margin-top: 46px;
+  margin-left: auto;
   padding: 0;
 
   list-style: none;
 }
 
 .login a {
-  text-align: center;
   text-decoration: none;
 
   color: #000000;
@@ -212,6 +197,20 @@ body {
 
 .login a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.enter {
+  display: block; /* вопрос не смог отцентровать текст */
+  width: 121px;
+  height: 45px;
+}
+
+.registration {
+  display: block;
+  width: 150px;
+  height: 45px;
+
+  margin-left: 10px;
 }
 
 .type-of-item {
