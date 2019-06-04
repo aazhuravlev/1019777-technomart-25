@@ -33,8 +33,8 @@ body {
   display: flex;
   justify-content: space-between;
 
-  width: 100%;
   margin: 0;
+  margin-left: auto;
   padding: 0;
 
   list-style: none;
@@ -42,6 +42,7 @@ body {
 
 .main-logo {
   padding: 13px 56px 15px 55px;
+  margin-bottom: -5px;
 
   background-color: #ee3643;
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
@@ -71,7 +72,6 @@ body {
 }
 
 .search-field {
-  display: block;
   width: 270px;
   color: #ffffff;
   border: none;
@@ -96,9 +96,21 @@ body {
   color: #000000;
 }
 
-.header-basket a {
-  display: block;
+.header-basket li {
+  display: flex;
   width: 150px;
+  align-items: ;
+
+  justify-content: space-between;
+}
+
+.header-basket a {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .header-basket a:hover,
@@ -213,16 +225,10 @@ body {
 }
 
 .site-navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  width: 940px;
   min-height: 60px;
-  margin: 0 auto;
   margin-bottom: 60px;
-  padding: 0 10px ;
-
+  box-sizing: border-box;
+  justify-content: space-around;
 
   list-style: none;
 
@@ -230,9 +236,20 @@ body {
   box-shadow: inset 0px -5px 0 0 #293449;
 }
 
-.site-navigation a {
-  line-height: 17px;
+.site-navigation li {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
 
+.site-navigation a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  line-height: 17px;
 }
 
 .site-navigation a:hover,
