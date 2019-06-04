@@ -13,9 +13,9 @@ body {
   flex-direction: column;
 
   min-height: 320px;
+  margin-bottom: 59px;
 
   background-color: #f4f7f9;
-  margin-bottom: 59px;
 }
 
 .top-header {
@@ -26,8 +26,8 @@ body {
   display: flex;
 
   width: 940px;
-  padding: 0 10px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header-basket {
@@ -42,8 +42,8 @@ body {
 }
 
 .main-logo {
-  padding: 13px 56px 15px 55px;
   margin-bottom: -5px;
+  padding: 13px 56px 15px 55px;
 
   background-color: #ee3643;
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
@@ -74,6 +74,7 @@ body {
 
 .search-field {
   width: 270px;
+
   color: #ffffff;
   border: none;
   background-color: #293449;
@@ -99,17 +100,16 @@ body {
 
 .header-basket li {
   display: flex;
-  width: 150px;
-  align-items: ;
-
   justify-content: space-between;
+
+  width: 150px;
 }
 
 .header-basket a {
-
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 100%;
   height: 100%;
 }
@@ -134,16 +134,17 @@ body {
 }
 
 .header-mid {
+  justify-content: space-between;
+
   margin-top: 46px;
   margin-bottom: 46px;
-  justify-content: space-between;
 }
 
 .store-description {
   width: 196px;
   margin: 0;
-  margin-left: 50px;
   margin-top: 5px;
+  margin-left: 50px;
 
   color: #ee3643;
 
@@ -156,12 +157,14 @@ body {
 .header-contacts {
   display: flex;
   flex-direction: column;
+
   margin: 0;
 }
 
 .header-contacts .phone {
-  padding: 10px 49px 8px 71px;
   margin-bottom: 2px; /* вопрос про отступ */
+  padding: 10px 49px 8px 71px;
+
   color: #ee3643;
   border: 3px solid #ffffff;
 
@@ -213,24 +216,25 @@ body {
 
 .enter {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
   width: 121px;
   min-height: 45px;
-  justify-content: center;
-  align-items: center;
   padding: 5px;
-  box-sizing: border-box;
 }
 
 .registration {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
   width: 150px;
   height: 45px;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  box-sizing: border-box;
-
   margin-left: 10px;
+  padding: 5px;
 }
 
 .wrapper-account {
@@ -240,16 +244,19 @@ body {
 
 .account {
   display: flex;
-  list-style: none;
-  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
   width: 299px;
   min-height: 45px;
   margin: 0;
   margin-bottom: 9px;
   padding: 0;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+
+  list-style: none;
+
+  background-color: #ffffff;
 }
 
 .account a {
@@ -274,13 +281,15 @@ body {
 
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
 .account-orders a {
-  text-decoration: underline;
-  margin-left: 15px;
   margin-right: 15px;
+  margin-left: 15px;
+
+  text-decoration: underline;
 
   color: #32425c;
 
@@ -297,10 +306,11 @@ body {
 }
 
 .site-navigation {
+  justify-content: space-around;
+
+  box-sizing: border-box;
   min-height: 60px;
   margin-bottom: 60px;
-  box-sizing: border-box;
-  justify-content: space-around;
 
   list-style: none;
 
@@ -319,8 +329,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 100%;
   height: 100%;
+
   line-height: 17px;
 }
 
@@ -343,6 +355,10 @@ body {
 }
 
 .type-of-item {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 32px 0 34px 30px;
+
   text-transform: uppercase;
 
   color: #32425c;
@@ -351,23 +367,21 @@ body {
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
-
-  margin: 0;
-  padding: 32px 0 34px 30px;
-  margin-bottom: 20px;
 }
 
 .breadcrumbs {
   display: flex;
-  list-style: none;
+
   margin: 0;
-  padding: 0;
   margin-bottom: 22px;
+  padding: 0;
+
+  list-style: none;
 }
 
 .breadcrumbs-link {
-
   margin-right: 40px;
+
   text-decoration: none;
   text-transform: uppercase;
 
@@ -378,24 +392,27 @@ body {
 }
 
 .filters {
+  width: 220px;
+
   text-transform: uppercase;
 
   font-family: "PT sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
-
-  width: 220px;
 }
 
 .common-name-area {
-  background-color: #f7f3ec;
-  font-size: 13px;
   margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-  padding: 14px 0 15px 18px;
-  font-weight: normal;
   margin-bottom: 20px;
+  padding: 0;
+  padding: 14px 0 15px 18px;
+
+  text-transform: uppercase;
+
+  background-color: #f7f3ec;
+
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .filters .common-name-area {
@@ -403,18 +420,20 @@ body {
 }
 
 .filters fieldset {
-  border: none;
   margin: 0;
   padding: 0;
+
+  border: none;
 }
 
 .filters legend {
-  font-weight: bold;
-  line-height: 30px;
   margin: 0;
+  margin-bottom: 14px;
   padding: 0;
   padding-top: 19px;
-  margin-bottom: 14px;
+
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .filters legend:first-child {
@@ -423,25 +442,28 @@ body {
 }
 
 .filters ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .filter-button {
   display: flex;
   justify-content: center;
+
   width: 140px;
   min-height: 38px;
+  margin-top: 75px;
+
+  text-transform: uppercase;
 
   border: solid 1px #e5e5e5;
   background-color: #ffffff;
 
   font-family: "PT sans", Arial, sans-serif;
-  text-transform: uppercase;
   font-size: 13px;
   line-height: 18px;
-  margin-top: 75px;
 }
 
 .filter-option{
@@ -459,8 +481,6 @@ body {
 .wrapper-catalog {
   display: flex;
   justify-content: space-between;
-
-  align-content: ;
 }
 
 .catalog {
@@ -470,18 +490,21 @@ body {
 .catalog ul {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
+
   margin: 0;
-  padding: 0;
   margin-bottom: 52px;
+  padding: 0;
+
+  list-style: none;
 }
 
 .catalog-item {
   width: 220px;
   min-height: 318px;
-  text-align: center;
-  margin-bottom: 20px;
   margin-right: 17px;
+  margin-bottom: 20px;
+
+  text-align: center;
 
   border: 1px solid  #e5e5e5;
 }
@@ -507,9 +530,10 @@ body {
 }
 
 .item h3 {
+  width: 155px;
   margin: 0 auto;
   margin-top: 11px;
-  width: 155px;
+
   font-size: 18px;
   line-height: 20px;
 }
@@ -520,27 +544,32 @@ body {
 
 .price {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-weight: bold;
+  flex-direction: column;
+
   margin: 0;
   padding: 0;
+
+  font-weight: bold;
 }
 
 .old-price {
   margin-top: 17px;
   margin-bottom: 13px;
+
   color: #999999;
 }
 
 .actual-price {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
   width: 141px;
   min-height: 38px;
-  text-decoration: none;
   margin-bottom: 21px;
+
+  text-decoration: none;
 
   color: #ffffff;
   background-color: #ee3643;
@@ -552,19 +581,21 @@ body {
 
 .buying a {
   text-decoration: none;
+  text-transform: uppercase;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 .buying .buy {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
   width: 135px;
   min-height: 38px;
   margin-bottom: 8px;
+
   color: #ffffff;
   background-color: #63a63e;
   box-shadow: inset 0px -3px 0 0 #367315;
@@ -582,11 +613,13 @@ body {
 
 .buying .to-bookmark {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
   width: 135px;
   min-height: 38px;
-  box-sizing: border-box;
+
   color: #32425c;
   border: solid 3px #63a63e;
 }
@@ -597,8 +630,8 @@ body {
 }
 
 .buying .to-bookmark:active {
-  color: rgba(50, 66, 92, 0.3);
   opacity: 0.3;
+  color: rgba(50, 66, 92, 0.3);
   border: solid 3px #32425c;
 }
 
@@ -614,70 +647,75 @@ body {
 .catalog-item:hover .buying,
 .catalog-item:focus .buying {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 
   width: 218px;
   height: 170px;
-
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .pagination-list {
   display: flex;
-  list-style: none;
+
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .pagination-list a {
-  font-family: "PT sans", Arial, sans-serif;
-  font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
+
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 13px;
 }
 
 .pagination-item {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  border-radius: 5%;
-  color: #000000;
+  justify-content: center;
+
   width: 38px;
   min-height: 38px;
+  margin-right: 10px;
+
+  color: #000000;
   border: solid 1px #e5e5e5;
+  border-radius: 5%;
   background-color: #ffffff;
 }
 
 .pagination-item-current {
   display: flex;
-  justify-content: center;
   align-items: center;
-  color: #ffffff;
-  border-radius: 5%;
+  justify-content: center;
 
   width: 38px;
   min-height: 38px;
-
   margin-right: 10px;
 
+  color: #ffffff;
+  border-radius: 5%;
   background-color: #ee3643;
 }
 
 .pagination-next {
   display: flex;
-  justify-content: center;
   align-items: center;
-  color: #000000;
-  border-radius: 5%;
+  justify-content: center;
 
   min-width: 140px;
   min-height: 38px;
+
+  color: #000000;
   border: solid 1px #e5e5e5;
+  border-radius: 5%;
   background-color: #ffffff;
 }
 
@@ -759,16 +797,17 @@ body {
 
 .top-footer-right {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  flex-direction: column;
 
   width: 550px;
 }
 
 .wrapper-top-footer-left .main-logo {
-  padding: 20px 41px 25px;
+  display: inline-block;
+
   margin-bottom: 30px;
-  display: inline-block
+  padding: 20px 41px 25px;
 }
 
 .bottom-footer {
@@ -786,13 +825,15 @@ body {
 }
 
 .footer-copyright {
-  margin-right: auto;
   width: 228px;
+  margin-right: auto;
 }
 
 .footer-contacts {
-  color: #f3f7f9;
   margin: 0;
+
+  color: #f3f7f9;
+
   font-size: 18px;
   line-height: 24px;
 }
@@ -864,8 +905,8 @@ body {
 
 .footer-social {
   margin: 0 auto;
-
   padding: 0;
+
   list-style: none;
 
   text-align: center;
