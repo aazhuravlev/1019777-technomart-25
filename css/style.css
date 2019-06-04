@@ -644,17 +644,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  margin-right: 10px;
   border-radius: 5%;
-
+  color: #000000;
   width: 38px;
   min-height: 38px;
   border: solid 1px #e5e5e5;
   background-color: #ffffff;
 }
 
-.pagination-item .current {
+.pagination-item-current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
+  border-radius: 5%;
+
+  width: 38px;
+  min-height: 38px;
+
+  margin-right: 10px;
 
   background-color: #ee3643;
 }
