@@ -15,6 +15,7 @@ body {
   min-height: 320px;
 
   background-color: #f4f7f9;
+  margin-bottom: 59px;
 }
 
 .top-header {
@@ -333,6 +334,14 @@ body {
   background-color: #1d2739;
 }
 
+.inner-page .main-header {
+  margin-bottom: 22px;
+}
+
+.container {
+  flex-direction: column;
+}
+
 .type-of-item {
   text-transform: uppercase;
 
@@ -342,13 +351,23 @@ body {
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
+
+  margin: 0;
+  padding: 32px 0 34px 30px;
+  margin-bottom: 20px;
 }
 
 .breadcrumbs {
+  display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
 }
 
 .breadcrumbs-link {
+
+  margin-right: 40px;
   text-decoration: none;
   text-transform: uppercase;
 
