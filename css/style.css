@@ -392,6 +392,7 @@ body {
   font-size: 13px;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
   padding: 14px 0 15px 18px;
   font-weight: normal;
   margin-bottom: 20px;
@@ -455,18 +456,37 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.wrapper-catalog {
+  display: flex;
+  justify-content: space-between;
+
+  align-content: ;
+}
+
 .catalog {
   width: 700px;
 }
 
 .catalog ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-item {
+  width: 220px;
+  min-height: 318px;
   text-align: center;
+  margin-bottom: 20px;
+  margin-right: 17px;
 
   border: 1px solid  #e5e5e5;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .catalog-item:hover,
