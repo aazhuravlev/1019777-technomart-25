@@ -211,15 +211,23 @@ body {
 }
 
 .enter {
-  display: block; /* вопрос не смог отцентровать текст */
+  display: flex;
   width: 121px;
-  height: 45px;
+  min-height: 45px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .registration {
-  display: block;
+  display: flex;
   width: 150px;
   height: 45px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
 
   margin-left: 10px;
 }
@@ -589,7 +597,6 @@ body {
   display: flex;
 
   margin: 0;
-  margin-left: 25px;
   padding: 0;
 
   list-style: none;
