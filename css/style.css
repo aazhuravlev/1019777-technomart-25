@@ -495,8 +495,6 @@ body {
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
   text-decoration: none;
 
   color: #000000;
@@ -507,34 +505,65 @@ body {
   line-height: 20px;
 }
 
+.item h3 {
+  margin: 0 auto;
+  margin-top: 11px;
+  width: 155px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .catalog-item span {
   text-transform: uppercase;
 }
 
 .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .old-price {
+  margin-top: 17px;
+  margin-bottom: 13px;
   color: #999999;
 }
 
 .actual-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 141px;
+  min-height: 38px;
   text-decoration: none;
+  margin-bottom: 21px;
 
   color: #ffffff;
   background-color: #ee3643;
 }
 
+.without-sale {
+  margin-top: 50px;
+}
+
 .buying a {
-  text-align: center;
   text-decoration: none;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .buying .buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  min-height: 38px;
+  margin-bottom: 8px;
   color: #ffffff;
   background-color: #63a63e;
   box-shadow: inset 0px -3px 0 0 #367315;
@@ -551,6 +580,12 @@ body {
 }
 
 .buying .to-bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  min-height: 38px;
+  box-sizing: border-box;
   color: #32425c;
   border: solid 3px #63a63e;
 }
@@ -578,9 +613,16 @@ body {
 .catalog-item:hover .buying,
 .catalog-item:focus .buying {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   width: 218px;
   height: 170px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper-about {
