@@ -76,14 +76,18 @@
 
       <section class="filters">
 
-        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <h2 class="common-name-area">Фильтр:</h2>
 
         <form action="https://echo.htmlacademy.ru" method="get" class="filter">
 
+          <fieldset>
+            <legend>Цена:</legend>
+            <!-- Здесь будет фильтр по цене -->
+          </fieldset>
           <div class="border-filter">
             <fieldset>
               <legend>Производители:</legend>
-              <ul>
+              <ul class="list-of-filter">
                 <li class="filter-option">
                   <input class="filter-checkbox" type="checkbox" name="BOSCH" id="filter-bosch" checked>
                   <label for="filter-bosch">BOSCH</label>
@@ -111,7 +115,7 @@
           <div class="border-filter">
             <fieldset>
               <legend>Питание:</legend>
-              <ul>
+              <ul class="list-of-filter">
                 <li class="filter-option">
                   <input class="filter-radio" type="radio" name="product-group" value="rechargeable" id="filter-batery" checked>
                   <label for="filter-batery">Аккумуляторные</label>
@@ -130,7 +134,7 @@
 
       </section>
       <section class="sorting">
-        <h2 class="visually-hidden">Сортировка товаров</h2>
+        <h2 class="common-name-area">Сортировка:</h2>
         <!--Здесь будет сортировка-->
       </section>
       <section class="catalog">
