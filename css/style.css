@@ -468,6 +468,10 @@ body {
   list-style: none;
 }
 
+.my-orders {
+  position: relative;
+}
+
 .account-orders a {
   margin-right: 15px;
   margin-left: 15px;
@@ -486,6 +490,19 @@ body {
 
 .account-orders a:active {
   color: rgba(50, 66, 92, 0.3);
+}
+
+.my-orders::after {
+  content: "";
+
+  top: 8px;
+  right: -4px;
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #32425c;
+  border-radius: 50%;
 }
 
 .site-navigation {
