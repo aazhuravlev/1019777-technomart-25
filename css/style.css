@@ -84,7 +84,7 @@ body {
   text-align: center;
 }
 
-.order a {
+.order {
   background-color: #63a63e;
 }
 
@@ -115,8 +115,13 @@ body {
   color: #000000;
 }
 
+.bookmark {
+
+}
+
 .header-basket li {
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
 
@@ -133,8 +138,8 @@ body {
   background-color: #212a3a;
 }
 
-.order a:hover,
-.order a:focus {
+.header-basket .order:hover,
+.header-basket .order:focus {
   background-color: #5fbb2d;
 }
 
@@ -143,7 +148,7 @@ body {
   background-color: #161d29;
 }
 
-.order a:active {
+.header-basket .order:active {
   background-color: #5fbb2d;
 }
 
