@@ -388,9 +388,12 @@ body {
 }
 
 .account a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #000000;
   background-color: #ffffff;
-
+  height: 100%;
   font-size: 21px;
   line-height: 21px;
 }
@@ -402,6 +405,58 @@ body {
 
 .account a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.name {
+  position: relative;
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+.name::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 25px;
+  height: 22px;
+  opacity: 0.3;
+
+  background-image: url("/img/icon-user.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.name:hover::before,
+.name:focus::before,
+.exit:hover::before,
+.exit:focus::before {
+  opacity: 1;
+}
+
+.name:active::before,
+.exit:active::before {
+  opacity: 0.3;
+}
+
+.exit {
+  position: relative;
+}
+
+.exit::before {
+  content: "";
+
+  position: absolute;
+  top: -9px;
+  left: -25px;
+  width: 25px;
+  height: 22px;
+  opacity: 0.3;
+
+  background-image: url("/img/icon-logout.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .account-orders{
