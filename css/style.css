@@ -1032,8 +1032,11 @@ body {
 }
 
 .footer-social {
+  display: flex;
   margin: 0 auto;
   padding: 0;
+  width: 90px;
+  justify-content: space-between;
 
   list-style: none;
 
@@ -1041,13 +1044,69 @@ body {
 }
 
 .social-button {
+  position: relative;
+
   color: #ffffff;
-  background-color: #212a3a;
+
 }
 
-.social-button:hover,
-.social-button:focus,
-.social-button:active {
+.vk::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+
+  background-image: url("/img/vk-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 8px 14px;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.fb::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+
+  background-image: url("/img/fb-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 14px 11px;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.inst::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+
+  background-image: url("/img/insta-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 11px;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.vk:hover::before,
+.vk:focus::before,
+.vk:active::before,
+.fb:hover::before,
+.fb:focus::before,
+.fb:active::before,
+.inst:hover::before,
+.inst:focus::before,
+.inst:active::before {
   background-color: #ee3643;
 }
 
