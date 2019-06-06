@@ -191,7 +191,7 @@ body {
 }
 
 .header-contacts .phone {
-  margin-bottom: 2px; /* вопрос про отступ */
+  margin-bottom: 2px;
   padding: 10px 49px 8px 71px;
 
   color: #ee3643;
