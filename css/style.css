@@ -318,13 +318,39 @@ body {
 
 .enter {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
 
   box-sizing: border-box;
   width: 121px;
   min-height: 45px;
-  padding: 5px;
+  padding-left: 48px;
+  padding-right: 27px;
+}
+
+.enter::before {
+  content: "";
+
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+
+  background-image: url("/img/icon-login.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.enter:hover::before,
+.enter:focus::before {
+  opacity: 1;
+}
+
+.enter:active::before {
+  opacity: 0.3;
 }
 
 .registration {
