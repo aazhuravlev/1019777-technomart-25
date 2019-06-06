@@ -131,6 +131,15 @@ body {
   background-position: 0 0;
 }
 
+.bookmarks:hover::before,
+.bookmarks:focus::before {
+  opacity: 1;
+}
+
+.bookmarks:active::before {
+  opacity: 0.5;
+}
+
 .basket::before {
   content: "";
 
@@ -144,6 +153,15 @@ body {
   background-image: url("/img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+}
+
+.basket:hover::before,
+.basket:focus::before {
+  opacity: 1;
+}
+
+.basket:active::before {
+  opacity: 0.5;
 }
 
 .header-basket li {
