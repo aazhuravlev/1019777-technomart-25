@@ -119,12 +119,29 @@ body {
   content: "";
 
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: 17px;
   width: 20px;
   height: 20px;
+  opacity: 0.3;
+  background-color: var(--white-two);
 
   background-image: url("/img/icon-bookmark.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.basket::before {
+  content: "";
+
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+
+  background-image: url("/img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
