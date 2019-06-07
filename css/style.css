@@ -114,6 +114,10 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
+.search:hover .icon-search::before {
+  opacity: 1;
+}
+
 .search-field {
   padding-left: 49px;
   width: 270px;
