@@ -921,6 +921,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   background-color: #63a63e;
   box-shadow: inset 0px -3px 0 0 #367315;
+  border-radius: 3px;
 }
 
 .buying .buy:hover,
@@ -944,6 +945,7 @@ input[type="radio"].visually-hidden {
 
   color: #32425c;
   border: solid 3px #63a63e;
+  border-radius: 3px;
 }
 
 .buying .to-bookmark:hover,
