@@ -585,6 +585,26 @@ body {
   font-size: 13px;
 }
 
+
+.breadcrumbs li {
+  position: relative;
+}
+
+.breadcrumbs li:not(:first-child)::before {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+
+  background-image: url("/img/icon-right-small.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
 .filters {
   width: 220px;
 
