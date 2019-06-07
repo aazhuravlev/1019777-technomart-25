@@ -110,10 +110,6 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
-.icon-seacrh:hover::before {
-  opacity: 1;
-}
-
 .search:hover .icon-search::before {
   opacity: 1;
 }
