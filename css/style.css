@@ -1157,8 +1157,6 @@ input[type="radio"].visually-hidden {
 }
 
 .wrapper-bottom-footer {
-  justify-content: space-between;
-
   margin-top: 40px;
   margin-bottom: 35px;
 }
@@ -1265,7 +1263,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 42px;
   height: 42px;
@@ -1281,7 +1279,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 42px;
   height: 42px;
@@ -1297,7 +1295,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 42px;
   height: 42px;
@@ -1329,6 +1327,7 @@ input[type="radio"].visually-hidden {
 .feedback {
   width: 135px;
   margin-right: 50px;
+  margin-left: 70px;
 }
 
 .feedback a,
