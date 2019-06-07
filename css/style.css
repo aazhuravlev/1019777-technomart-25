@@ -852,7 +852,7 @@ input[type="radio"].visually-hidden {
 }
 
 .item h3 {
-  width: 155px;
+  width: 160px;
   margin: 0 auto;
   margin-top: 11px;
 
@@ -899,6 +899,10 @@ input[type="radio"].visually-hidden {
 
 .without-sale {
   margin-top: 50px;
+}
+
+.buying {
+  min-height: 174px;
 }
 
 .buying a {
