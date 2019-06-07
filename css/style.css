@@ -8,7 +8,9 @@ body {
   line-height: 18px;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
 
   width: 1px;
@@ -710,10 +712,47 @@ body {
 
 .filter-option{
   margin-bottom: 17px;
+  padding-left: 30px;
 }
 
 .filter-option input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
+}
+
+.filter-option label {
+  position: relative;
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-checkbox + label::before {
+  content: "";
+  position: absolute;
+
+  width: 27px;
+  height: 23px;
+  top: -3px;
+  left: -30px;
+
+  background-image: url("/img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter-checkbox:checked + label::before {
+  content: "";
+  position: absolute;
+
+  width: 27px;
+  height: 23px;
+  top: -3px;
+  left: -30px;
+
+  background-image: url("/img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .border-filter {
