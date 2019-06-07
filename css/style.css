@@ -96,14 +96,15 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 15px;
   left: 17px;
+
   opacity: 0.3;
 }
 
-.search:hover svg {
+.search:hover svg,
+.search:focus svg {
   opacity: 1;
 }
 
-.search:focus path,
 .search:active path {
   fill: #ee3643;
 }
