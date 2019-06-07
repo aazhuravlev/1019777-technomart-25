@@ -1074,6 +1074,12 @@ input[type="radio"].visually-hidden {
   width: 300px;
 }
 
+.contacts-map .link-button {
+  margin-top: 40px;
+  padding-left: 61px;
+  padding-right: 62px;
+}
+
 .about-company {
   text-transform: uppercase;
 
@@ -1116,7 +1122,8 @@ input[type="radio"].visually-hidden {
 }
 
 .link-button {
-  text-align: center;
+  display: inline-block;
+  padding: 13px 40px;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -1125,6 +1132,7 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
 
   font-size: 14px;
+  border-radius: 2px;
 }
 
 .link-button:hover,
