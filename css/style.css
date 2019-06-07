@@ -808,6 +808,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item {
+  position: relative;
   width: 220px;
   min-height: 318px;
   margin-right: 17px;
@@ -816,6 +817,18 @@ input[type="radio"].visually-hidden {
   text-align: center;
 
   border: 1px solid  #e5e5e5;
+}
+
+.flag {
+  position: absolute;
+  top: -17px;
+  right: -1px;
+
+  width: 60px;
+  height: 60px;
+  background: url("/img/new-flag.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .catalog-item:nth-child(3n) {
