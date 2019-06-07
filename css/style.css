@@ -89,20 +89,14 @@ body {
 }
 
 .search-field {
+  position: relative;
+  padding-left: 49px;
   width: 270px;
   height: 100%;
 
   color: #ffffff;
   border: none;
   background-color: #293449;
-}
-
-.search form {
-  position: relative;
-}
-
-.search-field {
-  padding-left: 49px;
 }
 
 .search-field::before {
@@ -117,7 +111,7 @@ body {
 
   background-image: url("/img/icon-search.svg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 10px 20px;
 }
 
 .search-field:hover {
@@ -216,7 +210,7 @@ body {
 }
 
 .header-basket .order:active {
-  background-color: #5fbb2d;
+  background-color: #518534;
 }
 
 .header-mid {
