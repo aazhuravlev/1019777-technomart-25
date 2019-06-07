@@ -746,11 +746,39 @@ input[type="radio"].visually-hidden {
   position: absolute;
 
   width: 27px;
-  height: 23px;
+  height: 27px;
   top: -3px;
   left: -30px;
 
   background-image: url("/img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter-radio + label::before {
+  content: "";
+  position: absolute;
+
+  width: 27px;
+  height: 27px;
+  top: -3px;
+  left: -30px;
+
+  background-image: url("/img/radio-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter-radio:checked + label::before {
+  content: "";
+  position: absolute;
+
+  width: 27px;
+  height: 27px;
+  top: -3px;
+  left: -30px;
+
+  background-image: url("/img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
