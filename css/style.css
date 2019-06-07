@@ -886,15 +886,32 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
-  width: 141px;
+  width: 80px;
   min-height: 38px;
   margin-bottom: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   text-decoration: none;
 
   color: #ffffff;
   background-color: #ee3643;
+}
+
+.actual-price:after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: -30px;
+
+  width: 0;
+  height: 0;
+
+  border: 19px solid white;
+  border-left-color: #ee3643;
 }
 
 .without-sale {
