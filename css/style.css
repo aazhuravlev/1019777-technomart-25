@@ -1090,10 +1090,29 @@ input[type="radio"].visually-hidden {
 
 .delivery {
   list-style: none;
+  padding: 0;
+  padding-left: 35px;
+  margin-bottom: 36px;
 
   font-size: 18px;
   font-weight: normal;
   line-height: 20px;
+}
+
+.delivery li {
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.delivery li::before {
+  content: "";
+
+  position: absolute;
+  top: 7px;
+  left: -35px;
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
 }
 
 .link-button {
