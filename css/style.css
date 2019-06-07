@@ -92,6 +92,23 @@ input[type="radio"].visually-hidden {
   background-color: #63a63e;
 }
 
+.search svg {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  opacity: 0.3;
+}
+
+.search:hover svg {
+  opacity: 1;
+}
+
+.search:focus path,
+.search:active path {
+  fill: #ee3643;
+}
+
+/*
 .icon-search {
   position: relative;
 }
@@ -116,6 +133,7 @@ input[type="radio"].visually-hidden {
 .search:hover .icon-search::before {
   opacity: 1;
 }
+*/
 
 .search-field {
   width: 270px;
