@@ -218,7 +218,6 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: flex;
-  justify-content: space-between;
 }
 
 .header-basket a {
