@@ -452,14 +452,14 @@ input[type="radio"].visually-hidden {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.name {
+.account-name {
   position: relative;
 
   padding-right: 60px;
   padding-left: 40px;
 }
 
-.name::before {
+.account-name::before {
   position: absolute;
   top: 0;
   left: 10px;
@@ -475,23 +475,23 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
-.name:hover::before,
-.name:focus::before,
-.exit:hover::before,
-.exit:focus::before {
+.account-name:hover::before,
+.account-name:focus::before,
+.account-exit:hover::before,
+.account-exit:focus::before {
   opacity: 1;
 }
 
-.name:active::before,
-.exit:active::before {
+.account-name:active::before,
+.account-exit:active::before {
   opacity: 0.3;
 }
 
-.exit {
+.account-exit {
   position: relative;
 }
 
-.exit::before {
+.account-exit::before {
   position: absolute;
   top: -9px;
   left: -25px;
