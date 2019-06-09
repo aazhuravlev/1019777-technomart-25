@@ -1372,20 +1372,20 @@ input[type="radio"].visually-hidden {
   background-position: 0;
 }
 
-.vk::before {
+.social-button-vk::before {
   left: 7px;
 
   background-image: url("/img/vk-icon.svg");
 }
 
-.fb::before {
+.social-button-fb::before {
   top: 1px;
   left: 14px;
 
   background-image: url("/img/fb-icon.svg");
 }
 
-.inst::before {
+.social-button-inst::before {
   top: -1px;
   left: 11px;
 
