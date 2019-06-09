@@ -1255,7 +1255,6 @@ input[type="radio"].visually-hidden {
 
 .footer-copyright {
   width: 228px;
-  margin-right: auto;
 }
 
 .footer-contacts {
@@ -1406,7 +1405,6 @@ input[type="radio"].visually-hidden {
 .feedback {
   width: 135px;
   margin-right: 50px;
-  margin-left: 70px;
 }
 
 .feedback a,
