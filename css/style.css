@@ -92,6 +92,10 @@ input[type="radio"].visually-hidden {
   background-color: #63a63e;
 }
 
+.search {
+  position: relative;
+}
+
 .search svg {
   position: absolute;
   top: 15px;
@@ -164,6 +168,10 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.bookmarks {
+  position: relative;
+}
+
 .bookmarks::before {
   position: absolute;
   top: 15px;
@@ -187,6 +195,10 @@ input[type="radio"].visually-hidden {
 
 .bookmarks:active::before {
   opacity: 0.5;
+}
+
+.basket {
+  position: relative;
 }
 
 .basket::before {
@@ -215,8 +227,6 @@ input[type="radio"].visually-hidden {
 }
 
 .header-basket li {
-  position: relative;
-
   display: flex;
 }
 
@@ -862,17 +872,18 @@ input[type="radio"].visually-hidden {
   border: 1px solid  #e5e5e5;
 }
 
-.flag {
+.catalog-item::before {
   position: absolute;
-  top: -17px;
-  right: -1px;
+  top: 17px;
+  right: 1px;
+  z-index: 10;
 
   width: 60px;
   height: 60px;
 
   background: url("/img/new-flag.png");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 10px 10px;
 }
 
 .catalog-item:nth-child(3n) {
