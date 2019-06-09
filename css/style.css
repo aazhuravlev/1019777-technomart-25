@@ -1098,7 +1098,7 @@ input[type="radio"].visually-hidden {
 .pagination-list .current:focus,
 .pagination-list .current:active {
   color: #ffffff;
-  border: none;
+  border: 1px solid #ee3643;
   background-color: #ee3643;
 }
 
