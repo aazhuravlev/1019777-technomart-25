@@ -848,7 +848,7 @@ input[type="radio"].visually-hidden {
   width: 700px;
 }
 
-.catalog ul {
+.catalog-item-cart {
   display: flex;
   flex-wrap: wrap;
 
