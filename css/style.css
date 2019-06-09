@@ -108,8 +108,8 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
-.search-field:focus svg,
-.search-field:active path {
+.search-field:focus svg path,
+.search-field:active svg path {
   fill: #ee3643;
 }
 
