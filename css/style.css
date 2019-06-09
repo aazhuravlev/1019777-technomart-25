@@ -1430,6 +1430,7 @@ input[type="radio"].visually-hidden {
 
 .modal-map {
   position: relative;
+
   padding: 0;
 }
 
@@ -1439,6 +1440,7 @@ input[type="radio"].visually-hidden {
 
 .recall-form {
   position: relative;
+
   width: 620px;
   min-height: 430px;
 
@@ -1474,26 +1476,31 @@ input[type="radio"].visually-hidden {
 
 .modal-buttons {
   display: flex;
-  margin: 0;
-  justify-content: center;
   align-items: center;
-  list-style: none;
-  background-color: #f4f4f4;
+  justify-content: center;
+
   min-height: 112px;
+  margin: 0;
+
+  list-style: none;
+
+  background-color: #f4f4f4;
 }
 
 
 
 .modal-buttons .continue-shopping-button {
-  background-color: #ffffff;
   color: #000000;
+  background-color: #ffffff;
 }
 
 .modal-add-item {
   position: relative;
+
   width: 620px;
   min-height: 282px;
   margin: 0 auto;
+
   border-top: 7px solid #ff5257;
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
 }
@@ -1542,19 +1549,21 @@ input[type="radio"].visually-hidden {
 
 .modal-buttons .button {
   display: block;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  margin-right: 20px;
-  border-radius: 3px;
+
+  box-sizing: border-box;
   width: 220px;
   min-height: 38px;
+  margin-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+
   cursor: pointer;
-  box-sizing: border-box;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 
   color: #ffffff;
+  border-radius: 3px;
   background-color: #ee3643;
 
   font-size: 14px;
