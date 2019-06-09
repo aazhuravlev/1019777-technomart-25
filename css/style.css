@@ -628,7 +628,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.breadcrumbs-link {
+.breadcrumbs a {
   margin-right: 40px;
 
   text-decoration: none;
@@ -661,11 +661,11 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
-.main {
+.breadcrumbs-home {
   padding-right: 15px;
 }
 
-.main::before {
+.breadcrumbs-home::before {
   position: absolute;
   top: 2px;
   left: -25px;
