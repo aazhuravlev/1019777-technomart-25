@@ -104,11 +104,11 @@ input[type="radio"].visually-hidden {
   opacity: 0.3;
 }
 
-.search-field:hover svg,
-.search-field:focus svg {
+.search-field:hover svg {
   opacity: 1;
 }
 
+.search-field:focus svg,
 .search-field:active path {
   fill: #ee3643;
 }
