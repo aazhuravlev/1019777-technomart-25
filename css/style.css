@@ -872,7 +872,7 @@ input[type="radio"].visually-hidden {
   border: 1px solid  #e5e5e5;
 }
 
-.new::before {
+.new-catalog-item::before {
   position: absolute;
   top: 0;
   right: 0;
