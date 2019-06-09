@@ -516,8 +516,22 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.my-orders {
+.account-orders li {
   position: relative;
+}
+
+.account-orders li:not(:last-child)::after {
+  position: absolute;
+  top: 8px;
+  right: -4px;
+
+  width: 4px;
+  height: 4px;
+
+  content: "";
+
+  border-radius: 50%;
+  background-color: #32425c;
 }
 
 .account-orders a {
@@ -538,20 +552,6 @@ input[type="radio"].visually-hidden {
 
 .account-orders a:active {
   color: rgba(50, 66, 92, 0.3);
-}
-
-.my-orders::after {
-  position: absolute;
-  top: 8px;
-  right: -4px;
-
-  width: 4px;
-  height: 4px;
-
-  content: "";
-
-  border-radius: 50%;
-  background-color: #32425c;
 }
 
 .site-navigation {
