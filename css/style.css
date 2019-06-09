@@ -1430,13 +1430,18 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
 }
 
+.modal-map-close {
+  position: relative;
+}
+
 .modal-map img {
   box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
 }
 
 .recall-form {
+  position: relative;
   width: 620px;
-  height: 430px;
+  min-height: 430px;
 
   border-top: 7px solid #ff5257;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
