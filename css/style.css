@@ -1430,8 +1430,9 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
 }
 
-.modal-map-close {
+.modal-map {
   position: relative;
+  padding: 0;
 }
 
 .modal-map img {
