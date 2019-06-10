@@ -187,7 +187,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-bookmark.svg");
+  background-image: url("img/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -216,7 +216,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/cart-icon.svg");
+  background-image: url("img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -302,7 +302,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-phone.svg");
+  background-image: url("img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -385,7 +385,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-login.svg");
+  background-image: url("img/icon-login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -474,7 +474,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-user.svg");
+  background-image: url("img/icon-user.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -506,7 +506,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-logout.svg");
+  background-image: url("img/icon-logout.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -660,7 +660,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 1;
-  background-image: url("/img/icon-right-small.svg");
+  background-image: url("img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -681,7 +681,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 1;
-  background-image: url("/img/icon-home.svg");
+  background-image: url("img/icon-home.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -789,7 +789,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/checkbox-off.svg");
+  background-image: url("img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -804,7 +804,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/checkbox-on.svg");
+  background-image: url("img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -819,7 +819,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/radio-off.svg");
+  background-image: url("img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -834,7 +834,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/radio-on.svg");
+  background-image: url("img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -887,7 +887,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background: url("/img/new-flag.png");
+  background: url("img/new-flag.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1386,14 +1386,14 @@ input[type="radio"].visually-hidden {
   top: 1px;
   left: 14px;
 
-  background-image: url("/img/fb-icon.svg");
+  background-image: url("img/fb-icon.svg");
 }
 
 .social-button-inst::before {
   top: -1px;
   left: 11px;
 
-  background-image: url("/img/insta-icon.svg");
+  background-image: url("img/insta-icon.svg");
 }
 
 .social-button:hover,
@@ -1576,7 +1576,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/modal-check.svg");
+  background-image: url("img/modal-check.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1595,7 +1595,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/modal-close.svg");
+  background-image: url("img/modal-close.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
