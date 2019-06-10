@@ -1262,8 +1262,8 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-contacts {
-  margin: 0;
   width: 325px;
+  margin: 0;
 
   color: #f3f7f9;
 
@@ -1588,16 +1588,17 @@ input[type="radio"].visually-hidden {
 
   width: 21px;
   height: 21px;
-  cursor: pointer;
-  border: 0;
-  font-size: 0;
-  background-color: transparent;
 
   content: "";
+  cursor: pointer;
 
+  border: 0;
+  background-color: transparent;
   background-image: url("/img/modal-close.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+
+  font-size: 0;
 }
 
 .modal-buttons .button {
@@ -1616,6 +1617,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 
   color: #ffffff;
+  border: 0;
   border-radius: 3px;
   background-color: #ee3643;
 
