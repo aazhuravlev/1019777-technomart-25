@@ -736,7 +736,7 @@ input[type="radio"].visually-hidden {
   padding-top: 0;
 }
 
-.filters ul {
+.filters .list-of-filter {
   margin: 0;
   padding: 0;
 
