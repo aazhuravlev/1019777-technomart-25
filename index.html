@@ -171,22 +171,26 @@
       <a class="modal-close"><span class="visually-hidden">Закрыть</span></a>
     </section>
 
-    <section class="wrapper recall-form">
+    <section class="recall-form">
       <form action="https://echo.htmlacademy.ru" method="post">
-        <div>
-          <label for="name-field">Ваше имя:</label>
-          <input type="text" name="name" id="name-field" class="recall-form-area" placeholder="Имя Фамилия">
-        </div>
-        <div>
-          <label for="email-field">Ваш e-mail:</label>
-          <input type="email" name="email" id="email-field" class="recall-form-area" placeholder="email@example.com">
-        </div>
-        <div>
-          <label for="letter-field">Текст письма:</label>
-          <textarea name="text" id="letter-field" cols="30" rows="10" class="recall-form-area" placeholder="В свободной форме"></textarea>
+        <div class="wrapper-recall-form wrapper-recall-form-fields">
+          <div class="recall-form-field">
+            <label for="name-field">Ваше имя:</label>
+            <input type="text" name="name" id="name-field" class="recall-form-area recall-form-name" placeholder="Имя Фамилия">
+          </div>
+          <div class="recall-form-field">
+            <label for="email-field">Ваш e-mail:</label>
+            <input type="email" name="email" id="email-field" class="recall-form-area recall-form-email" placeholder="email@example.com">
+          </div>
+          <div class="recall-form-field">
+            <label for="letter-field">Текст письма:</label>
+            <textarea name="text" id="letter-field" class="recall-form-area recall-form-letter" placeholder="В свободной форме"></textarea>
+          </div>
         </div>
         <div class="modal-buttons">
-          <input class="link-button" type="submit" value="Отправить">
+          <div class="wrapper-recall-form">
+            <input class="link-button" type="submit" value="Отправить">
+          </div>
         </div>
       </form>
       <a class="modal-close"><span class="visually-hidden">Закрыть</span></a>

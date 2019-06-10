@@ -1439,22 +1439,71 @@ input[type="radio"].visually-hidden {
 }
 
 .recall-form {
+  margin: 0 auto;
   position: relative;
 
   width: 620px;
-  min-height: 430px;
+  height: 430px;
 
   border-top: 7px solid #ff5257;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
+.wrapper-recall-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  width: 460px;
+  margin-bottom: 37px;
+}
+
+.wrapper-recall-form-fields {
+  margin-top: 55px;
+}
+
+.recall-form .link-button {
+  margin-top: 37px;
+  width: 100%;
+}
+
+.recall-form-field {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.recall-form-field:last-child {
+  margin-bottom: 0;
+}
+
+.recall-form-field:first-child {
+  margin-right: 20px;
+}
+
+.recall-form-name,
+.recall-form-email {
+  height: 38px;
+  width: 220px;
+  box-sizing: border-box;
+}
+
+.recall-form-letter {
+  width: 460px;
+  height: 114px;
+  box-sizing: border-box;
+}
+
 .recall-form label {
+  margin-bottom: 13px;
   color: #000000;
 
   font-size: 18px;
 }
 
 .recall-form-area {
+  padding: 14px 16px;
   border: solid 2px #dee3e4;
 }
 
@@ -1486,8 +1535,6 @@ input[type="radio"].visually-hidden {
 
   background-color: #f4f4f4;
 }
-
-
 
 .modal-buttons .continue-shopping-button {
   color: #000000;
