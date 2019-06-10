@@ -1434,8 +1434,13 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-map {
-  position: relative;
+  position: absolute;
+  bottom: 700px;
+  left: 50%;
 
+  display: none;
+
+  margin-left: -470px;
   padding: 0;
 }
 
@@ -1443,13 +1448,18 @@ input[type="radio"].visually-hidden {
   box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
 }
 
-.recall-form {
-  position: relative;
+.modal-recall-form {
+  position: absolute;
+  bottom: 240px;
+  left: 50%;
+
+  display: none;
 
   width: 620px;
-  margin: 0 auto;
+  margin-left: -300px;
 
   border-top: 7px solid #ff5257;
+  background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
@@ -1466,7 +1476,7 @@ input[type="radio"].visually-hidden {
   margin-top: 55px;
 }
 
-.recall-form .link-button {
+.modal-recall-form .link-button {
   width: 100%;
   margin-top: 37px;
 }
@@ -1500,7 +1510,7 @@ input[type="radio"].visually-hidden {
   height: 114px;
 }
 
-.recall-form label {
+.modal-recall-form label {
   margin-bottom: 13px;
 
   color: #000000;
@@ -1524,6 +1534,8 @@ input[type="radio"].visually-hidden {
 }
 
 .recall-form-area::placeholder {
+  padding-top: 3px;
+
   color: #a9a9a9;
 
   font-family: "PT sans", Arial, sans-serif;
@@ -1549,12 +1561,17 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-add-item {
-  position: relative;
+  position: fixed;
+  top: 420px;
+  left: 50%;
+
+  display: none;
 
   width: 620px;
-  margin: 0 auto;
+  margin-left: -300px;
 
   border-top: 7px solid #ff5257;
+  background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
 }
 
