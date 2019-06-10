@@ -1263,6 +1263,7 @@ input[type="radio"].visually-hidden {
 
 .footer-contacts {
   margin: 0;
+  width: 325px;
 
   color: #f3f7f9;
 
@@ -1340,6 +1341,7 @@ input[type="radio"].visually-hidden {
 
   width: 90px;
   margin: 0 auto;
+  margin-top: 13px;
   padding: 0;
 
   list-style: none;
@@ -1352,7 +1354,6 @@ input[type="radio"].visually-hidden {
 
   width: 42px;
   height: 42px;
-  margin-top: 13px;
   margin-right: 3px;
 
   border-radius: 50%;
@@ -1378,7 +1379,7 @@ input[type="radio"].visually-hidden {
 .social-button-vk::before {
   left: 7px;
 
-  background-image: url("/img/vk-icon.svg");
+  background-image: url("img/vk-icon.svg");
 }
 
 .social-button-fb::before {
