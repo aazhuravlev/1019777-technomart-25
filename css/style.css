@@ -1582,16 +1582,16 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-close {
-  cursor: pointer;
-}
-
-.modal-close::before {
   position: absolute;
   top: 9px;
   right: 9px;
 
   width: 21px;
   height: 21px;
+  cursor: pointer;
+  border: 0;
+  font-size: 0;
+  background-color: transparent;
 
   content: "";
 
