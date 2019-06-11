@@ -117,33 +117,6 @@ input[type="radio"].visually-hidden {
   fill: #ee3643;
 }
 
-/*
-.icon-search {
-  position: relative;
-}
-
-.icon-search::before {
-  position: absolute;
-  z-index: 1;
-  top: 3px;
-  left: 20px;
-
-  width: 20px;
-  height: 20px;
-
-  content: "";
-
-  opacity: 0.3;
-  background-image: url("/img/icon-search.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.search:hover .icon-search::before {
-  opacity: 1;
-}
-*/
-
 .search-field {
   width: 270px;
   height: 100%;
@@ -447,11 +420,6 @@ input[type="radio"].visually-hidden {
   line-height: 21px;
 }
 
-.account a:hover,
-.account a:focus {
-  /* потом дополнить */
-}
-
 .account a:active {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -654,24 +622,99 @@ input[type="radio"].visually-hidden {
 
 .promo-blocks .materials {
   background-color: #ffbf47;
-  background-image: url("../img/icon-1.svg")
+}
+
+.promo-blocks .materials::after {
+  position: absolute;
+  top: 35px;
+  right: 43px;
+
+  width: 50px;
+  height: 70px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/icon-bucket.svg");
+  background-repeat: no-repeat;
 }
 
 .promo-blocks .tool {
   background-color: #3bbce3;
 }
 
+.promo-blocks .tool::after {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+
+  width: 80px;
+  height: 70px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/icon-drill.svg");
+  background-repeat: no-repeat;
+}
+
 .promo-blocks .technics {
   background-color: #dc91d8;
+}
+
+.promo-blocks .technics::after {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+
+  width: 80px;
+  height: 70px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/icon-tractor.svg");
+  background-repeat: no-repeat;
 }
 
 .promo-blocks .discount {
   background-color: #8ed78f;
 }
 
+.promo-blocks .discount::after {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+
+  width: 60px;
+  height: 75px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/icon-trolley.svg");
+  background-repeat: no-repeat;
+}
+
 .promo-blocks .delivery {
   background-color: #ffc047;
 }
+
+.promo-blocks .delivery::after {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+
+  width: 80px;
+  height: 65px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/icon-truck.svg");
+  background-repeat: no-repeat;
+}
+
 .promo-blocks .sliders {
   width: 620px;
   margin-left: 20px;
