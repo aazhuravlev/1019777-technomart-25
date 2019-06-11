@@ -187,7 +187,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-bookmark.svg");
+  background-image: url("../img/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -216,7 +216,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/cart-icon.svg");
+  background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -302,7 +302,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-phone.svg");
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -385,7 +385,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-login.svg");
+  background-image: url("../img/icon-login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -474,7 +474,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-user.svg");
+  background-image: url("../img/icon-user.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -506,7 +506,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 0.3;
-  background-image: url("/img/icon-logout.svg");
+  background-image: url("../img/icon-logout.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -608,45 +608,53 @@ input[type="radio"].visually-hidden {
 }
 
 .promo-blocks ul {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 .promo-block {
   position: relative;
+
   width: 300px;
-  padding-top: 26px;
   margin-bottom: 20px;
+  padding-top: 26px;
 }
 
 .promo-block h3 {
+  margin: 0;
+  margin-bottom: 12px;
+  margin-left: 23px;
+
+  color: #ffffff;
+
   font-size: 24px;
   line-height: 30px;
-  margin: 0;
-  margin-left: 23px;
-  margin-bottom: 12px;
-  color: #ffffff
 }
 
 .promo-block .link-promo-block {
-  width: 135px;
   display: block;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-left: 25px;
+
+  width: 135px;
   margin-bottom: 22px;
-  color: #ffffff;
+  margin-left: 25px;
   padding-top: 11px;
   padding-bottom: 9px;
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #ffffff;
   background-color: rgb(0,0,0, 0.1);
+
+  font-size: 14px;
 }
 
 .promo-blocks .materials {
   background-color: #ffbf47;
-  background-image: url("/img/icon-1.svg")
+  background-image: url("../img/icon-1.svg")
 }
 
 .promo-blocks .tool {
@@ -749,7 +757,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 1;
-  background-image: url("/img/icon-right-small.svg");
+  background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -770,7 +778,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   opacity: 1;
-  background-image: url("/img/icon-home.svg");
+  background-image: url("../img/icon-home.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -878,7 +886,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/checkbox-off.svg");
+  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -893,7 +901,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/checkbox-on.svg");
+  background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -908,7 +916,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/radio-off.svg");
+  background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -923,7 +931,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/radio-on.svg");
+  background-image: url("../img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -976,7 +984,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background: url("/img/new-flag.png");
+  background: url("../img/new-flag.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1468,21 +1476,21 @@ input[type="radio"].visually-hidden {
 .social-button-vk::before {
   left: 7px;
 
-  background-image: url("/img/vk-icon.svg");
+  background-image: url("../img/vk-icon.svg");
 }
 
 .social-button-fb::before {
   top: 1px;
   left: 14px;
 
-  background-image: url("/img/fb-icon.svg");
+  background-image: url("../img/fb-icon.svg");
 }
 
 .social-button-inst::before {
   top: -1px;
   left: 11px;
 
-  background-image: url("/img/insta-icon.svg");
+  background-image: url("../img/insta-icon.svg");
 }
 
 .social-button:hover,
@@ -1682,7 +1690,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  background-image: url("/img/modal-check.svg");
+  background-image: url("../img/modal-check.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1700,7 +1708,7 @@ input[type="radio"].visually-hidden {
 
   border: 0;
   background-color: transparent;
-  background-image: url("/img/modal-close.svg");
+  background-image: url("../img/modal-close.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 
