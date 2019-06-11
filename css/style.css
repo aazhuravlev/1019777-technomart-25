@@ -813,6 +813,10 @@ input[type="radio"].visually-hidden {
   box-shadow: 0px 4px 10px rgba(41, 52, 73, 0.5);
 }
 
+.services {
+  background-color: #f4f7f9;
+}
+
 .type-of-section {
   margin: 0;
   padding: 30px 0 30px 30px;
@@ -824,6 +828,176 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
+}
+
+.wrapper-services {
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.services .type-of-section {
+  color: #000000;
+  padding-top: 68px;
+  padding-left: 0;
+}
+
+.services .top-part-of-services {
+  width: 400px;
+  margin: 0;
+}
+
+.services .slider-controls {
+  position: relative;
+  margin-right: 80px;
+
+}
+
+.services .slider-controls:after {
+  position: absolute;
+  top: -45px;
+  right: 0;
+
+  width: 10px;
+  height: 280px;
+
+  content: "";
+
+  opacity: 1;
+  background-image: url("../img/shadow.png");
+  background-repeat: no-repeat;
+}
+
+.services .slider-controls-item {
+  color: #ffffff;
+  padding-top: 16px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 16px;
+  padding-left: 23px;
+  display: block;
+  width: 240px;
+  box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+  background-color: #32425c;
+}
+
+.services .sliders {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 99px;
+}
+
+.services .slider-item {
+  width: 620px;
+}
+
+.slider-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal;
+  color: #32425c;
+  margin-bottom: 25px;
+}
+
+.slider-item .describtion {
+  width: 379px;
+}
+
+.services .link-button {
+  width: 195px;
+  margin-top: 20px;
+}
+
+.slider-item {
+  display: none;
+  position: relative;
+}
+
+.services .slider-item:nth-child(1)::before {
+  position: absolute;
+
+  top: 30px;
+  right: 0;
+
+  width: 468px;
+  height: 250px;
+
+  content: "";
+
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.services .slider-item:nth-child(2)::before {
+  position: absolute;
+
+  top: 10px;
+  right: 0;
+
+  width: 389px;
+  height: 273px;
+
+  content: "";
+
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.services .slider-item:nth-child(3)::before {
+  position: absolute;
+
+  top: 10px;
+  right: 0;
+
+  width: 465px;
+  height: 275px;
+
+  content: "";
+
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#slide-1:checked ~ .slider-controls .slider-controls-item:nth-child(1) {
+  background-color: #ffffff;
+  color: #32425c;
+  box-shadow: none;
+}
+
+#slide-2:checked ~ .slider-controls .slider-controls-item:nth-child(2) {
+  background-color: #ffffff;
+  color: #32425c;
+  box-shadow: none;
+}
+
+#slide-3:checked ~ .slider-controls .slider-controls-item:nth-child(3) {
+  background-color: #ffffff;
+  color: #32425c;
+  box-shadow: none;
+}
+
+#slide-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
+}
+
+#slide-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+#slide-3:checked ~ .slider-list .slider-item:nth-child(3) {
+  display: block;
 }
 
 .inner-page .wrapper-type-of-section {
@@ -1058,6 +1232,14 @@ input[type="radio"].visually-hidden {
 
 .catalog {
   width: 700px;
+}
+
+.popular-goods {
+  flex-direction: column;
+}
+
+.popular-producers {
+  flex-direction: column;
 }
 
 .catalog-item-cart {
@@ -1372,18 +1554,34 @@ input[type="radio"].visually-hidden {
   padding-left: 61px;
 }
 
-.about-company {
-  text-transform: uppercase;
-
-  font-size: 30px;
-  font-weight: normal;
-  line-height: 30px;
+.contacts-map .type-of-section {
+  color: #000000;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .describtion {
+  color: #000000;
+
   font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.about .describtion {
+  margin-bottom: 30px;
+}
+
+.about .type-of-section {
+  color: #000000;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contacts-map .describtion {
+  margin-bottom: 30px;
 }
 
 .about .delivery {

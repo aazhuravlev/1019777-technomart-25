@@ -60,10 +60,10 @@
 
     </header>
 
-    <main class="wrapper container main-page">
+    <main class="container main-page">
       <!--Здесь будет основная часть сайта-->
 
-      <section class="promo-blocks">
+      <section class="wrapper promo-blocks">
         <h2 class="visually-hidden">Промо-блок сайта</h2>
         <ul class="top-promo-block">
           <li class="promo-block materials materials-icon new-catalog-item">
@@ -80,6 +80,7 @@
           </li>
         </ul>
         <div class="wrapper-promo-blocks">
+          <!--
           <div class="sliders">
             <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
             <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
@@ -99,6 +100,7 @@
                 <a href="catalog.html" class="link-button">Открыть Каталог</a>
               </li>
             </ul>
+            --->
           </div>
           <ul class="right-promo-block">
             <li class="promo-block discount">
@@ -110,10 +112,11 @@
               <a href="#">Бесплатно</a>
             </li>
           </ul>
+
         </div>
       </section>
 
-      <section class="popular-goods">
+      <section class="wrapper popular-goods">
 
         <div class="wrapper-type-of-section">
           <h2 class="type-of-section">Популярные товары:</h2>
@@ -164,7 +167,7 @@
 
       </section>
 
-      <section class="popular-producers">
+      <section class="wrapper popular-producers">
 
         <div class="wrapper-type-of-section">
           <h2 class="type-of-section">Популярные производители:</h2>
@@ -216,10 +219,65 @@
 
       </section>
 
+      <section class="services">
+
+        <div class="wrapper wrapper-services">
+          <div class="top-part-of-services">
+            <h2 class="type-of-section">Сервисы</h2>
+            <p class="describtion">
+              Хороший интернет-магазин отличается от плохого не только ценами!
+              Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+            </p>
+          </div>
+          <div class="sliders">
+            <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+            <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
+            <input class="visually-hidden" type="radio" id="slide-3" name="toggle">
+            <div class="slider-controls">
+              <label class="slider-controls-item slider-controls-item-1" for="slide-1">Доставка</label>
+              <label class="slider-controls-item slider-controls-item-2" for="slide-2">Гарантия</label>
+              <label class="slider-controls-item slider-controls-item-3" for="slide-3">Кредит</label>
+            </div>
+            <ul class="slider-list">
+              <li class="slider-item">
+                <h3>Доставка</h3>
+                <p class="describtion">
+                  Мы с удовольствием доставим ваш товар прямо<br>
+                  к вашему подъезду совершенно бесплатно!<br>
+                  Ведь мы неплохо заработаем,<br>
+                  поднимая его на ваш этаж!
+                </p>
+              </li>
+              <li class="slider-item">
+                <h3>Гарантия</h3>
+                <p class="describtion">
+                  Если купленный у нас товар поломается или заискрит,<br>
+                  а также в случае пожара, спровоцированного его возгаранием,
+                  вы всегда можете быть уверены в нашей гарантии. Мы обменяем
+                  сгоревший товар на новый.<br>
+                  Дом уж восстановите как-нибудь сами.
+                </p>
+              </li>
+              <li class="slider-item">
+                <h3>Кредит</h3>
+                <p class="describtion">
+                  Залезть в долговую яму стало проще!<br>
+                  Кредитные консультанты придут вам на помощь.
+                </p>
+                <a href="catalog.html" class="link-button">Отправить заявку</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </section>
+
       <div class="wrapper wrapper-about">
         <section class="about">
 
-          <h2 class="about-company">Компания «Техномарт»</h2>
+          <h2 class="type-of-section">Компания «Техномарт»</h2>
           <p class="describtion">
             Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
             строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
@@ -237,7 +295,7 @@
         </section>
 
         <section class="contacts-map">
-          <h2  class="about-company">Контакты</h2>
+          <h2  class="type-of-section">Контакты</h2>
           <p class="describtion">
             Вы можете забрать товар сами,<br>
             заехав в наш офис:
