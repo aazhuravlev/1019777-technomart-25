@@ -601,7 +601,7 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
 }
 
-.promo-block .link-promo-block {
+.promo-block a {
   display: block;
 
   width: 135px;
