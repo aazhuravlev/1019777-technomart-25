@@ -922,7 +922,7 @@ input[type="radio"].visually-hidden {
   line-height: 36px;
 }
 
-.slider-item .describtion {
+.slider-item .description {
   width: 379px;
 }
 
@@ -1573,7 +1573,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-.describtion {
+.description {
   margin: 0;
   padding: 0;
 
@@ -1584,7 +1584,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
 }
 
-.about .describtion {
+.about .description {
   margin-bottom: 30px;
 }
 
@@ -1595,7 +1595,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-.contacts-map .describtion {
+.contacts-map .description {
   margin-bottom: 30px;
 }
 
