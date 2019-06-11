@@ -743,6 +743,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
   margin-bottom: 53px;
 }
 
@@ -760,17 +761,19 @@ input[type="radio"].visually-hidden {
 
 .wrapper-type-of-section {
   display: flex;
-  justify-content: space-between;
   align-content: center;
+  justify-content: space-between;
+
   margin-bottom: 20px;
+
   background-color: #f9f5f0;
 }
 
 .wrapper-type-of-section .link-button {
   width: 253px;
   margin-top: 26px;
-  margin-bottom: 26px;
   margin-right: 25px;
+  margin-bottom: 26px;
 }
 
 .type-of-section {
@@ -1382,8 +1385,8 @@ input[type="radio"].visually-hidden {
 
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
 
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 
