@@ -897,11 +897,11 @@ input[type="radio"].visually-hidden {
 }
 
 .wrapper-type-of-section {
-  box-sizing: border-box;
   display: flex;
   align-content: center;
   justify-content: space-between;
 
+  box-sizing: border-box;
   margin-bottom: 20px;
 
   background-color: #f9f5f0;
@@ -1229,20 +1229,22 @@ input[type="radio"].visually-hidden {
 }
 
 .common-name-area {
-  font-family: "PT sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
   padding: 10px 0 10px 18px;
-  border-radius: 3px;
 
   text-transform: uppercase;
 
+  border-radius: 3px;
+
+  font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
 }
 
 .filters .common-name-area {
   margin-bottom: 14px;
+
   background-color: #f7f3ec;
 }
 
@@ -1259,8 +1261,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 14px;
   padding: 0;
   padding-top: 19px;
-  font-size: 17px;
 
+  font-size: 17px;
   font-weight: bold;
   line-height: 30px;
 }
@@ -1296,13 +1298,15 @@ input[type="radio"].visually-hidden {
 
 .range-controls {
   position: relative;
+
   height: 41px;
-  background-color: #f7f3ec;
-  border-radius: 5px;
   margin-bottom: 10px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
+
+  border-radius: 5px;
+  background-color: #f7f3ec;
 }
 
 .range-controls .scale {
@@ -1327,11 +1331,12 @@ input[type="radio"].visually-hidden {
   height: 4px;
   padding: 0;
 
+  cursor: pointer;
+
   border: 8px solid #ffffff;
+  border-radius: 50%;
   background-color: #ababab;
   box-shadow: 0 2px 1px 0 #cfcfcf;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 .range-controls .toggle-min {
@@ -1347,14 +1352,17 @@ input[type="radio"].visually-hidden {
 }
 
 .price-controls input {
-  font-family: "PT sans", Arial, sans-serif;
-  text-align: center;
   width: 95px;
   padding-top: 10px;
   padding-bottom: 10px;
+
+  text-align: center;
+
   border: none;
   border-radius: 5px;
   background: #f7f3ec;
+
+  font-family: "PT sans", Arial, sans-serif;
 }
 
 .price-controls span {
@@ -1448,19 +1456,22 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog .type-of-sortings {
-  width: 355px;
   display: flex;
   justify-content: space-between;
+
+  width: 355px;
   margin-left: 100px;
 }
 
 .catalog .type-of-sorting {
-  font-family: "PT sans", Arial, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13px;
+
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px dotted #ee3643;
+
+  font-family: "PT sans", Arial, sans-serif;
+  font-size: 13px;
 }
 
 .catalog .type-of-sorting:hover,
@@ -1476,11 +1487,13 @@ input[type="radio"].visually-hidden {
 
 
 .sorting-wrapper {
-  background-color: #f7f3ec;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
   align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+
+  background-color: #f7f3ec;
 }
 
 .catalog .arrows {
@@ -1488,8 +1501,9 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog .arrow {
-  font-size: 0;
   margin-right: 20px;
+
+  font-size: 0;
 }
 
 .catalog .arrow:last-child {
@@ -1515,12 +1529,15 @@ input[type="radio"].visually-hidden {
 
 .arrow::before {
   display: inline-block;
+
+  content: "";
+
   border: 10px solid #c5c5c5;
   border-right-width: 5px;
   border-right-color: transparent;
   border-left-width: 5px;
   border-left-color: transparent;
-  content: "";
+
   font-size: 0;
 }
 
@@ -1963,8 +1980,9 @@ input[type="radio"].visually-hidden {
 }
 
 .about-item {
-  background-color: #f4f7f9;
   padding-top: 65px;
+
+  background-color: #f4f7f9;
 }
 
 .about-item .wrapper-about-item {
@@ -1972,14 +1990,16 @@ input[type="radio"].visually-hidden {
 }
 
 .about-item .type-of-section {
-  padding: 0;
-  color: #000000;
   margin-bottom: 25px;
+  padding: 0;
+
+  color: #000000;
 }
 
 .about-item .description {
   margin: 0;
   padding: 0;
+
   font-weight: normal;
 }
 
