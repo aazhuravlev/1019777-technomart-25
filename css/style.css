@@ -1292,7 +1292,78 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
 }
 
-.filter-option{
+.range-controls {
+  position: relative;
+  height: 41px;
+  background-color: #f7f3ec;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 31px;
+  left: 0;
+
+  width: 4px;
+  height: 4px;
+  padding: 0;
+
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls label {
+  display: inline-block;
+}
+
+.price-controls input {
+  font-family: "PT sans", Arial, sans-serif;
+  text-align: center;
+  width: 95px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #f7f3ec;
+}
+
+.price-controls span {
+  margin: 0 2px;
+}
+
+.price-controls {
+  margin-bottom: 20px;
+}
+
+.filter-option {
   margin-bottom: 17px;
   padding-left: 30px;
 }
