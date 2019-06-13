@@ -1879,6 +1879,31 @@ input[type="radio"].visually-hidden {
   background-color: #ba2732;
 }
 
+.about-item {
+  background-color: #f4f7f9;
+  padding-top: 65px;
+}
+
+.about-item .wrapper-about-item {
+  flex-direction: column;
+}
+
+.about-item .type-of-section {
+  padding: 0;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-item .description {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.about-item .description:last-child {
+  margin-bottom: 65px;
+}
+
 .main-footer {
   display: flex;
   flex-direction: column;
