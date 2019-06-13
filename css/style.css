@@ -1231,14 +1231,11 @@ input[type="radio"].visually-hidden {
 .common-name-area {
   font-family: "PT sans", Arial, sans-serif;
   margin: 0;
-  margin-bottom: 20px;
   padding: 0;
   padding: 10px 0 10px 18px;
   border-radius: 3px;
 
   text-transform: uppercase;
-
-  background-color: #f7f3ec;
 
   font-size: 13px;
   font-weight: normal;
@@ -1246,6 +1243,7 @@ input[type="radio"].visually-hidden {
 
 .filters .common-name-area {
   margin-bottom: 14px;
+  background-color: #f7f3ec;
 }
 
 .filters fieldset {
@@ -1447,6 +1445,91 @@ input[type="radio"].visually-hidden {
 
 .border-filter {
   border-top: 1px solid #e5e5e5;
+}
+
+.catalog .type-of-sortings {
+  width: 355px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.catalog .type-of-sorting {
+  font-family: "PT sans", Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #ee3643;
+}
+
+.catalog .type-of-sorting:hover,
+.catalog .type-of-sorting:focus {
+  color: #000000;
+  border-bottom: 1px solid #ee3643;
+}
+
+.catalog .type-of-sorting:active {
+  color: #ee3643;
+  border-bottom: none;
+}
+
+
+.sorting-wrapper {
+  background-color: #f7f3ec;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.catalog .arrows {
+  margin-right: 15px;
+}
+
+.catalog .arrow {
+  font-size: 0;
+  margin-right: 20px;
+}
+
+.catalog .arrow:last-child {
+  margin-right: 0;
+}
+
+.catalog .arrow:hover::before,
+.catalog .arrow:focus::before {
+  border-color: #000000;
+  border-right-width: 5px;
+  border-right-color: transparent;
+  border-left-width: 5px;
+  border-left-color: transparent;
+}
+
+.catalog .arrow:active::before {
+  border-color: #ee3643;
+  border-right-width: 5px;
+  border-right-color: transparent;
+  border-left-width: 5px;
+  border-left-color: transparent;
+}
+
+.arrow::before {
+  display: inline-block;
+  border: 10px solid #c5c5c5;
+  border-right-width: 5px;
+  border-right-color: transparent;
+  border-left-width: 5px;
+  border-left-color: transparent;
+  content: "";
+  font-size: 0;
+}
+
+.arrow-up::before {
+  border-top-width: 0;
+}
+
+.arrow-down::before {
+  border-bottom-width: 0;
 }
 
 .wrapper-catalog {
