@@ -2294,10 +2294,13 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
 }
 
+
 .recall-form-area {
   padding: 14px 16px;
 
   border: solid 2px #dee3e4;
+
+  border-radius: 3px;
 }
 
 .recall-form-area:hover {
