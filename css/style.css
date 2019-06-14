@@ -243,6 +243,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-top: 3px;
   margin-left: 51px;
+  margin-right: 20px;
 
   color: #ee3643;
 
@@ -396,7 +397,7 @@ input[type="radio"].visually-hidden {
   width: 299px;
   min-height: 45px;
   margin: 0;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
   padding: 0;
 
   list-style: none;
@@ -477,7 +478,7 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
-.account-orders{
+.account-orders {
   display: flex;
 
   margin: 0;
@@ -506,7 +507,7 @@ input[type="radio"].visually-hidden {
 
 .account-orders a {
   margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 17px;
 
   text-decoration: underline;
 
@@ -566,7 +567,7 @@ input[type="radio"].visually-hidden {
 }
 
 .inner-page .main-header {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -959,7 +960,7 @@ input[type="radio"].visually-hidden {
 
 .type-of-section {
   margin: 0;
-  padding: 30px 0 30px 28px;
+  padding: 31px 0 30px 19px;
 
   text-transform: uppercase;
 
@@ -1156,15 +1157,13 @@ input[type="radio"].visually-hidden {
   display: flex;
 
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 19px;
   padding: 0;
 
   list-style: none;
 }
 
 .breadcrumbs a {
-  margin-right: 40px;
-
   text-decoration: none;
   text-transform: uppercase;
 
@@ -1177,12 +1176,17 @@ input[type="radio"].visually-hidden {
 
 .breadcrumbs li {
   position: relative;
+  margin-right: 41px;
+}
+
+.breadcrumbs li:last-child {
+  margin-right: 0;
 }
 
 .breadcrumbs li:not(:first-child)::before {
   position: absolute;
   top: 3px;
-  left: -25px;
+  left: -28px;
 
   width: 15px;
   height: 15px;
@@ -1201,12 +1205,11 @@ input[type="radio"].visually-hidden {
 
 .breadcrumbs-home::before {
   position: absolute;
-  top: 2px;
-  left: -25px;
+  top: 3px;
+  left: -3px;
 
   width: 15px;
   height: 15px;
-  margin-left: 25px;
 
   content: "";
 
@@ -1229,7 +1232,7 @@ input[type="radio"].visually-hidden {
 .common-name-area {
   margin: 0;
   padding: 0;
-  padding: 10px 0 10px 18px;
+  padding: 9px 0 10px 19px;
 
   text-transform: uppercase;
 
@@ -1241,7 +1244,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filters .common-name-area {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 
   background-color: #f7f3ec;
 }
@@ -1254,18 +1257,22 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
+.filters fieldset:first-child {
+  margin-top: 0;
+}
+
 .filters legend {
   margin: 0;
   margin-bottom: 14px;
   padding: 0;
-  padding-top: 19px;
+  padding-top: 17px;
 
   font-size: 17px;
   font-weight: bold;
   line-height: 30px;
 }
 
-.filters legend:first-child {
+.filters .filter-price {
   padding-top: 0;
 }
 
@@ -1282,7 +1289,7 @@ input[type="radio"].visually-hidden {
 
   width: 140px;
   min-height: 38px;
-  margin-top: 75px;
+  margin-top: 60px;
 
   text-transform: uppercase;
 
@@ -1350,9 +1357,9 @@ input[type="radio"].visually-hidden {
 }
 
 .price-controls input {
-  width: 95px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 93px;
+  padding-top: 8px;
+  padding-bottom: 11px;
 
   text-align: center;
 
@@ -1364,16 +1371,17 @@ input[type="radio"].visually-hidden {
 }
 
 .price-controls span {
-  margin: 0 2px;
+  margin-left: 5px;
+  margin-right: 4px;
 }
 
 .price-controls {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .filter-option {
-  margin-bottom: 17px;
-  padding-left: 30px;
+  margin-bottom: 20px;
+  padding-left: 34px;
 }
 
 .filter-option input:disabled + label {
@@ -1391,8 +1399,8 @@ input[type="radio"].visually-hidden {
 
 .filter-checkbox + label::before {
   position: absolute;
-  top: -3px;
-  left: -30px;
+  top: -1px;
+  left: -34px;
 
   width: 27px;
   height: 23px;
@@ -1406,8 +1414,8 @@ input[type="radio"].visually-hidden {
 
 .filter-checkbox:checked + label::before {
   position: absolute;
-  top: -3px;
-  left: -30px;
+  top: -1px;
+  left: -34px;
 
   width: 27px;
   height: 27px;
@@ -1421,8 +1429,8 @@ input[type="radio"].visually-hidden {
 
 .filter-radio + label::before {
   position: absolute;
-  top: -3px;
-  left: -30px;
+  top: -1px;
+  left: -34px;
 
   width: 27px;
   height: 27px;
@@ -1436,8 +1444,8 @@ input[type="radio"].visually-hidden {
 
 .filter-radio:checked + label::before {
   position: absolute;
-  top: -3px;
-  left: -30px;
+  top: -1px;
+  left: -34px;
 
   width: 27px;
   height: 27px;
@@ -1577,9 +1585,9 @@ input[type="radio"].visually-hidden {
 .catalog-item {
   position: relative;
 
-  width: 220px;
-  min-height: 318px;
-  margin-right: 17px;
+  width: 218px;
+  min-height: 316px;
+  margin-right: 20px;
   margin-bottom: 20px;
 
   text-align: center;
@@ -1671,7 +1679,7 @@ input[type="radio"].visually-hidden {
 }
 
 .old-price {
-  margin-bottom: 8px;
+  margin-bottom: 11px;
 
   color: #999999;
 }
@@ -1819,8 +1827,8 @@ input[type="radio"].visually-hidden {
   align-items: center;
   justify-content: center;
 
-  width: 38px;
-  min-height: 38px;
+  width: 36px;
+  min-height: 36px;
   margin-right: 10px;
 
   color: #000000;
@@ -1839,7 +1847,7 @@ input[type="radio"].visually-hidden {
 }
 
 .pagination-list .next {
-  min-width: 140px;
+  min-width: 138px;
 }
 
 .pagination-item:hover,
@@ -1997,7 +2005,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-item .description:last-child {
-  margin-bottom: 65px;
+  margin-bottom: 70px;
 }
 
 .main-footer {
