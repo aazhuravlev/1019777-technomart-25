@@ -2210,8 +2210,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-map {
-  position: absolute;
-  bottom: 700px;
+  position: fixed;
+  bottom: 50%;
   left: 50%;
 
   display: none;
@@ -2225,8 +2225,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-recall-form {
-  position: absolute;
-  bottom: 240px;
+  position: fixed;
+  top: 50%;
   left: 50%;
 
   display: none;
@@ -2338,7 +2338,7 @@ input[type="radio"].visually-hidden {
 
 .modal-add-item {
   position: fixed;
-  top: 420px;
+  top: 50%;
   left: 50%;
 
   display: none;
