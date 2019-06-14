@@ -599,6 +599,7 @@ input[type="radio"].visually-hidden {
 
   font-size: 24px;
   line-height: 30px;
+  font-weight: bold;
 }
 
 .promo-block a {
