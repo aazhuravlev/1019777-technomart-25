@@ -1596,33 +1596,16 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
-.catalog-item:nth-child(3n) {
+.inner-page .catalog-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.popular-item:nth-child(4n) {
+.catalog-item:nth-child(4n) {
   margin-right: 0;
 }
 
 .catalog-item:hover,
 .catalog-item:focus {
-  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
-}
-
-.popular-item {
-  position: relative;
-
-  width: 218px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-
-  text-align: center;
-
-  border: 1px solid  #e5e5e5;
-}
-
-.popular-item:hover,
-.popular-item:focus {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
