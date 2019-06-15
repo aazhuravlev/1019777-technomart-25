@@ -2295,7 +2295,6 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
 }
 
-
 .recall-form-area {
   padding: 14px 16px;
 
@@ -2380,22 +2379,51 @@ input[type="radio"].visually-hidden {
 
 .modal-close {
   position: absolute;
-  top: 9px;
-  right: 9px;
+  top: 10px;
+  right: 10px;;
 
   width: 21px;
   height: 21px;
 
-  content: "";
   cursor: pointer;
 
   border: 0;
   background-color: transparent;
-  background-image: url("../img/modal-close.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
   font-size: 0;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  top: 9px;
+  right: -3px;
+
+  position: absolute;
+
+  width: 27px;
+  height: 3px;
+
+  background-color: #ee3643;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.modal-close:hover::before,
+.modal-close:focus::before,
+.modal-close:hover::after,
+.modal-close:focus::after {
+  background-color: #ca2c37;
+}
+
+.modal-close:active::before,
+.modal-close:active::after {
+  background-color: #ba2732;
 }
 
 .modal-buttons .button {
