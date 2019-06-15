@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -32,7 +33,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
 
-  width: 100%;
   min-height: 320px;
   margin-bottom: 59px;
 
@@ -1135,7 +1135,7 @@ input[type="radio"].visually-hidden {
 
 #slide-1:checked ~ .slider-controls .slider-controls-item:nth-child(1),
 #slide-2:checked ~ .slider-controls .slider-controls-item:nth-child(2),
-#slide-2:checked ~ .slider-controls .slider-controls-item:nth-child(3) {
+#slide-3:checked ~ .slider-controls .slider-controls-item:nth-child(3) {
   color: #32425c;
   background-color: #ffffff;
   box-shadow: none;
@@ -1143,7 +1143,7 @@ input[type="radio"].visually-hidden {
 
 #slide-1:checked ~ .slider-list .slider-item:nth-child(1),
 #slide-2:checked ~ .slider-list .slider-item:nth-child(2),
-#slide-2:checked ~ .slider-list .slider-item:nth-child(3) {
+#slide-3:checked ~ .slider-list .slider-item:nth-child(3) {
   display: block;
 }
 
