@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  min-width: 960px;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -41,7 +41,6 @@ input[type="radio"].visually-hidden {
 
 .top-header {
   background-color: #293449;
-  width: 100%;
 }
 
 .wrapper {
