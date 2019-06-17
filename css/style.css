@@ -1617,7 +1617,7 @@ input[type="radio"].visually-hidden {
   margin-right: 0;
 }
 
-.catalog-item:nth-child(4n) {
+ .popular-catalog-item-cart .catalog-item:nth-child(4n) {
   margin-right: 0;
 }
 
