@@ -1,7 +1,7 @@
 body {
+  min-width: 960px;
   margin: 0;
   padding: 0;
-  min-width: 960px;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -209,13 +209,14 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   justify-content: center;
+
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 .header-basket .bookmarks {
-  padding-left: 44px;
   padding-right: 28px;
+  padding-left: 44px;
 }
 
 .header-basket .basket {
@@ -224,8 +225,8 @@ input[type="radio"].visually-hidden {
 }
 
 .header-basket .order {
-  padding-left: 20px;
   padding-right: 22px;
+  padding-left: 20px;
 }
 
 .header-basket a:hover,
@@ -246,6 +247,7 @@ input[type="radio"].visually-hidden {
 .header-basket .full {
   padding-right: 26px;
   padding-left: 49px;
+
   background-color: #ee3643;
 }
 
@@ -271,8 +273,8 @@ input[type="radio"].visually-hidden {
   width: 197px;
   margin: 0;
   margin-top: 3px;
-  margin-left: 52px;
   margin-right: 69px;
+  margin-left: 52px;
 
   color: #ee3643;
 
@@ -334,8 +336,8 @@ input[type="radio"].visually-hidden {
 
   margin: 0;
   margin-right: 10px;
-  padding: 0;
   margin-left: auto;
+  padding: 0;
 
   list-style: none;
 }
@@ -417,6 +419,7 @@ input[type="radio"].visually-hidden {
 .wrapper-account {
   display: flex;
   flex-direction: column;
+
   margin-left: auto;
 }
 
@@ -437,6 +440,7 @@ input[type="radio"].visually-hidden {
 .account a {
   padding-top: 12px;
   padding-bottom: 12px;
+
   color: #000000;
   background-color: #ffffff;
 
@@ -450,6 +454,7 @@ input[type="radio"].visually-hidden {
 
 .account-name {
   display: block;
+
   padding-left: 46px;
 }
 
@@ -568,32 +573,33 @@ input[type="radio"].visually-hidden {
 
 .site-navigation a {
   display: block;
+
   padding-top: 20px;
+  padding-right: 30px;
   padding-bottom: 23px;
   padding-left: 30px;
-  padding-right: 30px;
 
   line-height: 17px;
 }
 
 .site-navigation .company-link {
-  padding-left: 33px;
   padding-right: 27px;
+  padding-left: 33px;
 }
 
 .site-navigation .news-link {
-  padding-left: 33px;
   padding-right: 27px;
+  padding-left: 33px;
 }
 
 .site-navigation .catalog-link {
-  padding-left: 32px;
   padding-right: 27px;
+  padding-left: 32px;
 }
 
 .site-navigation .special-offers-link {
-  padding-left: 31px;
   padding-right: 31px;
+  padding-left: 31px;
 }
 
 .site-navigation .delivery-link {
@@ -601,8 +607,8 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation .contacts-link {
-  padding-left: 29px;
   padding-right: 31px;
+  padding-left: 29px;
 }
 
 
@@ -648,8 +654,8 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 
   font-size: 24px;
-  line-height: 30px;
   font-weight: bold;
+  line-height: 30px;
 }
 
 .promo-block a {
@@ -1543,8 +1549,8 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog .arrows {
-  margin-right: 18px;
   margin-top: 5px;
+  margin-right: 18px;
   margin-left: 46px;
 }
 
@@ -1710,28 +1716,35 @@ input[type="radio"].visually-hidden {
 
 .old-price {
   margin-bottom: 9px;
+
   color: #999999;
 }
 
 .actual-price {
   position: relative;
+
   width: 80px;
   margin: 0px auto;
   margin-bottom: 20px;
   padding: 10px 28px;
-  color: white;
-  background: #ee3643;
-  border-radius: 3px;
+
   text-decoration: none;
+
+  color: white;
+  border-radius: 3px;
+  background: #ee3643;
 }
 
 .actual-price:after {
-  content: "";
   position: absolute;
   top: 0px;
   right: -25px;
+
   width: 0;
   height: 0;
+
+  content: "";
+
   border: 19px solid white;
   border-left-color: #ee3643;
 }
@@ -1745,8 +1758,10 @@ input[type="radio"].visually-hidden {
 }
 
 .buying a {
-  display: block;
   position: relative;
+
+  display: block;
+
   text-decoration: none;
   text-transform: uppercase;
 
@@ -1757,12 +1772,12 @@ input[type="radio"].visually-hidden {
 .buying .buy {
   display: block;
 
+  margin-top: 43px;
   margin-bottom: 8px;
   padding-top: 11px;
+  padding-right: 46px;
   padding-bottom: 9px;
   padding-left: 49px;
-  padding-right: 46px;
-  margin-top: 43px;
 
   color: #ffffff;
   border-radius: 3px;
@@ -1806,10 +1821,10 @@ input[type="radio"].visually-hidden {
 }
 
 .buying .to-bookmark {
-  padding-left: 32px;
-  padding-right: 29px;
   padding-top: 8px;
+  padding-right: 29px;
   padding-bottom: 6px;
+  padding-left: 32px;
 
   color: #32425c;
   border: solid 3px #63a63e;
@@ -2378,7 +2393,6 @@ input[type="radio"].visually-hidden {
   padding: 8px 13px;
 
   border: solid 2px #dee3e4;
-
   border-radius: 3px;
 }
 
@@ -2424,7 +2438,7 @@ input[type="radio"].visually-hidden {
   top: 50%;
   left: 50%;
 
-  display: block;
+  display: none;
 
   width: 620px;
   margin-left: -300px;
@@ -2469,19 +2483,20 @@ input[type="radio"].visually-hidden {
 
   border: 0;
   background-color: transparent;
+
   font-size: 0;
 }
 
 .modal-close::before,
 .modal-close::after {
-  content: "";
+  position: absolute;
   top: 9px;
   right: -3px;
 
-  position: absolute;
-
   width: 27px;
   height: 4px;
+
+  content: "";
 
   background-color: #ee3643;
 }
@@ -2519,10 +2534,8 @@ input[type="radio"].visually-hidden {
 
   box-sizing: border-box;
   width: 220px;
-
   padding-top: 11px;
   padding-bottom: 9px;
-
 
   cursor: pointer;
   text-align: center;
@@ -2547,7 +2560,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-buttons .continue-shopping-button {
+  padding-left: 0;
+
   color: #000000;
   background-color: #ffffff;
-  padding-left: 0;
 }
