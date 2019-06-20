@@ -2480,6 +2480,7 @@ input[type="radio"].visually-hidden {
   left: 50%;
 
   display: none;
+  z-index: 9;
 
   width: 620px;
   margin-left: -300px;

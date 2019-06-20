@@ -94,3 +94,32 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
+
+var buyLink = document.querySelector(".buy-modal-button");
+var buyPopup = document.querySelector(".modal-add-item");
+var buyClose = buyPopup.querySelector(".modal-close");
+var buyContinue = buyPopup.querySelector(".continue-shopping-button");
+
+buyLink.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  buyPopup.classList.add("modal-show");
+});
+
+buyClose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  buyPopup.classList.remove("modal-show");
+});
+
+buyContinue.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  buyPopup.classList.remove("modal-show");
+});
+
+window.addEventListener("keydown", function (evt) {
+  evt.preventDefault();
+  if (evt.keyCode === 27) {
+    if (buyPopup.classList.contains("modal-show")) {
+      buyPopup.classList.remove("modal-show");
+    }
+  }
+});
