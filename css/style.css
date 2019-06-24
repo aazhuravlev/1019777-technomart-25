@@ -375,6 +375,8 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   width: 121px;
   min-height: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-right: 27px;
   padding-left: 48px;
 }
@@ -411,7 +413,7 @@ input[type="radio"].visually-hidden {
 
   box-sizing: border-box;
   width: 150px;
-  height: 45px;
+  min-height: 45px;
   margin-left: 10px;
   padding: 5px;
 }
@@ -921,6 +923,7 @@ input[type="radio"].visually-hidden {
   z-index: 1;
 
   display: inline-block;
+  vertical-align: center;
 
   width: 8px;
   height: 8px;
@@ -1399,6 +1402,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: center;
 }
 
 .price-controls input {
@@ -1585,6 +1589,8 @@ input[type="radio"].visually-hidden {
   display: inline-block;
 
   content: "";
+
+  vertical-align: center;
 
   border: 10px solid #c5c5c5;
   border-right-width: 5px;
@@ -2101,6 +2107,7 @@ input[type="radio"].visually-hidden {
 
 .wrapper-top-footer-left .main-logo {
   display: inline-block;
+  vertical-align: center;
 
   margin-bottom: 25px;
   padding: 19px 41px 25px;
