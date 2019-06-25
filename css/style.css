@@ -119,6 +119,7 @@ input[type="radio"].visually-hidden {
   padding-top: 11px;
   padding-bottom: 12px;
   padding-left: 48px;
+  box-sizing: border-box;
 
   color: #ffffff;
   border: none;
@@ -225,7 +226,7 @@ input[type="radio"].visually-hidden {
 }
 
 .header-basket .order {
-  padding-right: 22px;
+  padding-right: 21px;
   padding-left: 20px;
 }
 
