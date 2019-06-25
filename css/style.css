@@ -115,11 +115,11 @@ input[type="radio"].visually-hidden {
 }
 
 .search-field {
+  box-sizing: border-box;
   width: 270px;
   padding-top: 11px;
   padding-bottom: 12px;
   padding-left: 48px;
-  box-sizing: border-box;
 
   color: #ffffff;
   border: none;
@@ -1572,8 +1572,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog .arrows {
-  margin-right: 18px;
+  margin-right: 17px;
   margin-left: 46px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .catalog .arrow {
