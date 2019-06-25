@@ -553,6 +553,7 @@ input[type="radio"].visually-hidden {
 
 .site-navigation {
   justify-content: space-around;
+  flex-wrap: wrap;
 
   box-sizing: border-box;
   min-height: 60px;
@@ -923,7 +924,7 @@ input[type="radio"].visually-hidden {
   z-index: 1;
 
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
 
   width: 8px;
   height: 8px;
@@ -1129,7 +1130,7 @@ input[type="radio"].visually-hidden {
 
 .slider-item {
   position: relative;
-
+  z-index: 0;
   display: none;
 }
 
@@ -1140,9 +1141,8 @@ input[type="radio"].visually-hidden {
 
   width: 468px;
   height: 250px;
-
+  z-index: -1;
   content: "";
-
   background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1155,9 +1155,8 @@ input[type="radio"].visually-hidden {
 
   width: 389px;
   height: 273px;
-
+  z-index: -1;
   content: "";
-
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1170,9 +1169,8 @@ input[type="radio"].visually-hidden {
 
   width: 465px;
   height: 275px;
-
+  z-index: -1;
   content: "";
-
   background-image: url("../img/credit.png");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1377,7 +1375,7 @@ input[type="radio"].visually-hidden {
 
 .range-controls .toggle {
   position: absolute;
-  top: 31px;
+  top: 30px;
   left: 0;
 
   width: 20px;
@@ -1393,7 +1391,7 @@ input[type="radio"].visually-hidden {
 }
 
 .range-controls .toggle-min {
-  left: 18px;
+  left: 20px;
 }
 
 .range-controls .toggle-max {
@@ -1402,7 +1400,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls label {
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .price-controls input {
@@ -1514,6 +1512,7 @@ input[type="radio"].visually-hidden {
 .catalog .type-of-sortings {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   width: 355px;
   margin-left: 140px;
@@ -1553,7 +1552,6 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog .arrows {
-  margin-top: 5px;
   margin-right: 18px;
   margin-left: 46px;
 }
@@ -1590,7 +1588,7 @@ input[type="radio"].visually-hidden {
 
   content: "";
 
-  vertical-align: center;
+  vertical-align: middle;
 
   border: 10px solid #c5c5c5;
   border-right-width: 5px;
@@ -2107,7 +2105,7 @@ input[type="radio"].visually-hidden {
 
 .wrapper-top-footer-left .main-logo {
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
 
   margin-bottom: 25px;
   padding: 19px 41px 25px;
