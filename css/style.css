@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   font-weight: normal;
   line-height: 18px;
@@ -1225,7 +1225,7 @@ input[type="radio"].visually-hidden {
 
   color: #000000;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
 }
 
@@ -1281,7 +1281,7 @@ input[type="radio"].visually-hidden {
 
   text-transform: uppercase;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
 }
@@ -1295,7 +1295,7 @@ input[type="radio"].visually-hidden {
 
   border-radius: 3px;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
@@ -1357,7 +1357,7 @@ input[type="radio"].visually-hidden {
   border: solid 1px #e5e5e5;
   background-color: #ffffff;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -1431,7 +1431,7 @@ input[type="radio"].visually-hidden {
   border-radius: 5px;
   background: #f7f3ec;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
 }
 
 .price-controls span {
@@ -1541,7 +1541,7 @@ input[type="radio"].visually-hidden {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px dotted #ee3643;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
 }
 
@@ -1701,7 +1701,7 @@ input[type="radio"].visually-hidden {
 
   color: #000000;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -1729,7 +1729,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 700;
 }
 
@@ -1784,7 +1784,7 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: uppercase;
 
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
 }
 
@@ -1899,7 +1899,7 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: uppercase;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
 }
 
@@ -1974,7 +1974,7 @@ input[type="radio"].visually-hidden {
 
   color: #000000;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -2487,7 +2487,7 @@ input[type="radio"].visually-hidden {
 
   color: #a9a9a9;
 
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
 }
 
