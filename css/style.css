@@ -33,7 +33,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
 
-  min-height: 320px;
   margin-bottom: 59px;
 
   background-color: #f4f7f9;
@@ -378,7 +377,6 @@ input[type="radio"].visually-hidden {
 
   box-sizing: border-box;
   width: 121px;
-  min-height: 45px;
   padding-top: 5px;
   padding-right: 27px;
   padding-bottom: 5px;
@@ -417,7 +415,6 @@ input[type="radio"].visually-hidden {
 
   box-sizing: border-box;
   width: 150px;
-  min-height: 45px;
   margin-left: 10px;
   padding: 5px;
 }
@@ -560,7 +557,6 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
 
   box-sizing: border-box;
-  min-height: 60px;
   margin-bottom: 60px;
   padding-right: 23px;
   padding-left: 22px;
