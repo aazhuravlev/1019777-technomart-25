@@ -348,6 +348,8 @@ input[type="radio"].visually-hidden {
 
 .login a {
   text-decoration: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
 
   color: #000000;
   background-color: #ffffff;
