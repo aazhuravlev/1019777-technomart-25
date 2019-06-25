@@ -347,9 +347,10 @@ input[type="radio"].visually-hidden {
 }
 
 .login a {
-  text-decoration: none;
   padding-top: 12px;
   padding-bottom: 12px;
+
+  text-decoration: none;
 
   color: #000000;
   background-color: #ffffff;
@@ -1897,27 +1898,26 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.pagination-list a {
-  text-decoration: none;
-  text-transform: uppercase;
-
-  font-family: "PT sans", "Arial", sans-serif;
-  font-size: 13px;
-}
-
 .pagination-item {
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 36px;
-  min-height: 36px;
   margin-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  text-decoration: none;
+  text-transform: uppercase;
 
   color: #000000;
   border: solid 1px #e5e5e5;
   border-radius: 3px;
   background-color: #ffffff;
+
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
 }
 
 .pagination-list .current,
