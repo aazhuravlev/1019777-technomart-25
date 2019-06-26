@@ -1096,6 +1096,11 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
 }
 
+.slider-controls label:hover {
+  box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+  background-color: #293449;
+}
+
 .services .sliders {
   display: flex;
   justify-content: space-between;
@@ -1722,7 +1727,8 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:hover,
-.catalog-item:focus {
+.catalog-item:focus,
+.catalog-item:focus-within {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
@@ -1896,12 +1902,14 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:hover img,
-.catalog-item:focus img {
+.catalog-item:focus img,
+.catalog-item:focus-within img {
   display: none;
 }
 
 .catalog-item:hover .buying,
-.catalog-item:focus .buying {
+.catalog-item:focus .buying,
+.catalog-item:focus-within .buying {
   display: flex;
   align-items: center;
   flex-direction: column;
