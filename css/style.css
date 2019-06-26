@@ -1340,7 +1340,7 @@ input[type="radio"].visually-hidden {
 
 .filters legend {
   margin: 0;
-  margin-bottom: 14px;
+  margin-bottom: 13px;
   padding: 0;
   padding-top: 18px;
 
@@ -1365,7 +1365,7 @@ input[type="radio"].visually-hidden {
   justify-content: center;
 
   width: 140px;
-  margin-top: 58px;
+  margin-top: 60px;
   padding-top: 10px;
   padding-bottom: 8px;
 
@@ -1438,7 +1438,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls input {
   width: 93px;
-  padding-top: 8px;
+  padding-top: 9px;
   padding-bottom: 11px;
   padding-left: 2px;
 
@@ -1461,8 +1461,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-option {
-  margin-bottom: 20px;
-  padding-left: 34px;
+  margin-bottom: 13px;
 }
 
 .filter-option input:disabled + label {
@@ -1479,12 +1478,11 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-checkbox + label::before {
-  position: absolute;
-  top: -2px;
-  left: -34px;
-
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
   width: 27px;
-  height: 23px;
+  height: 27px;
 
   content: "";
 
@@ -1494,9 +1492,9 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-checkbox:checked + label::before {
-  position: absolute;
-  top: -2px;
-  left: -34px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
 
   width: 27px;
   height: 27px;
@@ -1509,9 +1507,9 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-radio + label::before {
-  position: absolute;
-  top: -3px;
-  left: -35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
 
   width: 27px;
   height: 27px;
@@ -1532,9 +1530,9 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-radio:checked + label::before {
-  position: absolute;
-  top: -3px;
-  left: -35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
 
   width: 27px;
   height: 27px;
