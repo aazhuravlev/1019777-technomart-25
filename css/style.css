@@ -116,6 +116,7 @@ input[type="radio"].visually-hidden {
 .search-field {
   box-sizing: border-box;
   width: 270px;
+  min-height: 42px;
   padding-top: 11px;
   padding-bottom: 12px;
   padding-left: 48px;
@@ -1734,8 +1735,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:hover,
-.catalog-item:focus,
-.catalog-item:focus-within {
+.catalog-item:focus {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
@@ -1909,14 +1909,12 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:hover img,
-.catalog-item:focus img,
-.catalog-item:focus-within img {
+.catalog-item:focus img {
   display: none;
 }
 
 .catalog-item:hover .buying,
-.catalog-item:focus .buying,
-.catalog-item:focus-within .buying {
+.catalog-item:focus .buying {
   display: flex;
   align-items: center;
   flex-direction: column;
