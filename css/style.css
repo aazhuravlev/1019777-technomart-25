@@ -1212,6 +1212,15 @@ input[type="radio"].visually-hidden {
   display: block;
 }
 
+#slide-1:focus ~ .slider-controls .slider-controls-item:nth-child(1),
+#slide-2:focus ~ .slider-controls .slider-controls-item:nth-child(2),
+#slide-3:focus ~ .slider-controls .slider-controls-item:nth-child(3) {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
 .inner-page .wrapper-type-of-section {
   background-color: #f2f6f8;
 }
