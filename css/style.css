@@ -2467,7 +2467,7 @@ input[type="radio"].visually-hidden {
 
   width: 460px;
   margin: 0 auto;
-  margin-bottom: 36px;
+  margin-bottom: 38px;
 }
 
 .wrapper-recall-form-fields {
@@ -2475,9 +2475,11 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-recall-form .link-button {
-  width: 100%;
-  margin-top: 39px;
+  width: 460px;
+  margin: 0 auto;
+  margin-top: 37px;
   padding-top: 12px;
+  margin-bottom: 37px;
 }
 
 .recall-form-field {
@@ -2544,10 +2546,7 @@ input[type="radio"].visually-hidden {
 
 .modal-buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
 
-  min-height: 112px;
   margin: 0;
   padding: 0;
 
