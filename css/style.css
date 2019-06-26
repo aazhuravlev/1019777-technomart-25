@@ -1509,6 +1509,14 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
+.filter-checkbox:focus + label,
+.filter-radio:focus + label {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
 .filter-radio:checked + label::before {
   position: absolute;
   top: -3px;
