@@ -429,7 +429,6 @@ input[type="radio"].visually-hidden {
 .account {
   position: relative;
 
-  box-sizing: border-box;
   width: 299px;
   margin: 0;
   margin-bottom: 8px;
@@ -458,7 +457,10 @@ input[type="radio"].visually-hidden {
 .account-name {
   display: block;
 
+  box-sizing: border-box;
+  width: 254px;
   padding-left: 46px;
+  padding-right: 5px;
 }
 
 .account-name::before {
@@ -479,30 +481,30 @@ input[type="radio"].visually-hidden {
 
 .account-name:hover::before,
 .account-name:focus::before,
-.account-exit:hover,
-.account-exit:focus {
+.account-exit:hover::before,
+.account-exit:focus::before {
   opacity: 1;
 }
 
 .account-name:active::before,
-.account-exit:active {
+.account-exit:active::before {
   opacity: 0.3;
 }
 
-.account-exit {
+.account-exit::before {
   position: absolute;
   top: 0;
-  right: -4px;
+  right: 0;
 
   width: 45px;
-  height: 22px;
+  min-height: 45px;
 
   content: "";
 
   opacity: 0.3;
-  background-image: url("../img/icon-logout.svg");
+  background-image: url(../img/icon-logout.svg);
   background-repeat: no-repeat;
-  background-position: 10px 14px;
+  background-position: 14px 14px;
 }
 
 .account-orders {
@@ -1349,8 +1351,9 @@ input[type="radio"].visually-hidden {
   justify-content: center;
 
   width: 140px;
-  min-height: 38px;
-  margin-top: 60px;
+  margin-top: 58px;
+  padding-top: 10px;
+  padding-bottom: 8px;
 
   text-transform: uppercase;
 
@@ -1932,11 +1935,14 @@ input[type="radio"].visually-hidden {
   min-width: 138px;
 }
 
+.filter-button:hover,
+.filter-button:focus,
 .pagination-item:hover,
 .pagination-item:focus {
   border: solid 1px #bdc6ca;
 }
 
+.filter-button:active,
 .pagination-item:active {
   border: solid 1px #ee3643;
 }
