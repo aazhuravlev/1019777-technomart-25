@@ -116,9 +116,7 @@ input[type="radio"].visually-hidden {
 .search-field {
   box-sizing: border-box;
   width: 270px;
-  min-height: 42px;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  height: 100%;
   padding-left: 48px;
 
   color: #ffffff;
