@@ -2579,7 +2579,7 @@ input[type="radio"].visually-hidden {
 
 .modal-add-item p::before {
   position: absolute;
-  top: 50px;
+  top: 49px;
   left: 81px;
 
   width: 66px;
@@ -2644,6 +2644,7 @@ input[type="radio"].visually-hidden {
 }
 
 .checkout {
+  margin-left: 79px;
   margin-right: 20px;
 }
 
@@ -2654,6 +2655,8 @@ input[type="radio"].visually-hidden {
   width: 220px;
   padding-top: 11px;
   padding-bottom: 9px;
+  margin-top: 37px;
+  margin-bottom: 37px;
 
   cursor: pointer;
   text-align: center;
@@ -2678,7 +2681,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-buttons .continue-shopping-button {
-  padding-left: 0;
+  padding-left: 5px;
 
   color: #000000;
   background-color: #ffffff;
