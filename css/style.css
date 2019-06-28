@@ -75,8 +75,12 @@ input[type="radio"].visually-hidden {
 }
 
 .main-logo {
+  width: 220px;
   margin-bottom: -5px;
-  padding: 13px 56px 11px 55px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+
+  text-align: center;
 
   background-color: #ee3643;
   -webkit-box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
@@ -2339,7 +2343,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-item .description:last-child {
-  margin-bottom: 70px;
+  margin-bottom: 69px;
 }
 
 .main-footer {
@@ -2384,8 +2388,8 @@ input[type="radio"].visually-hidden {
 .wrapper-top-footer-left .main-logo {
   display: inline-block;
 
-  margin-bottom: 25px;
-  padding: 19px 41px 25px;
+  margin-bottom: 27px;
+  padding: 21px 0;
 
   vertical-align: middle;
 }
